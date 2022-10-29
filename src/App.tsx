@@ -1,16 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from './logo.svg';
 import './App.css';
-import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import Button from '@mui/material/Button';
-import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
 import IconButton from "@mui/material/IconButton";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
 
 function App() {
   const [open, setState] = useState<boolean>(false);
@@ -43,7 +39,28 @@ function App() {
         onClose={() => toggleDrawer(false)}
         onOpen={() => toggleDrawer(true)}
       >
-        Test
+        <Box className="box" sx={{ mb: 2 }}>
+          <ListItemButton>
+            <ListItemText primary="Home" />
+          </ListItemButton>
+          <Divider sx={{ mb: 2 }} />
+          <ListItemButton>
+            <ListItemText primary="Location" />
+          </ListItemButton>
+          <Divider sx={{ mb: 2 }} />
+          <ListItemButton>
+            <ListItemText primary="Agenda" />
+          </ListItemButton>
+          <Divider sx={{ mb: 2 }} />
+          <ListItemButton>
+            <ListItemText primary="RSVP" />
+          </ListItemButton>
+          <Divider sx={{ mb: 2 }} />
+          <ListItemButton>
+            <ListItemText primary="FAQs" />
+          </ListItemButton>
+          <Divider sx={{ mb: 2 }} />
+        </Box>
       </SwipeableDrawer>
       <img src={logo} className="App-logo" alt="logo" />
       <p>fabio - marília</p>
