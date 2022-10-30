@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   margin: 0 0.8em;
 }
 
@@ -56,6 +55,10 @@
   color: #FF5734;
 }
 
+#home {
+  text-align: center;
+}
+
 .who {
   font-family: Didot, Didot LT STD, serif;
   font-weight: 400;
@@ -66,4 +69,25 @@
 .where {
   line-height: 24px;
   margin: 16px 20%;
+}
+
+.title {
+  font-family: Didot, Didot LT STD, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  margin: 1em 0
+}
+
+#location {
+  margin: 0 1em;
+}
+
+#location div {
+  margin-top: 1.5em;
+  line-height: 24px;
+}
+
+#location li {
+  margin-left: 0.6em;
 }

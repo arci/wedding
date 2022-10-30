@@ -89,15 +89,30 @@ function App() {
           <span onClick={() => i18n.changeLanguage("pt")} className={i18n.language == "pt" ? "current" : ""}>pt</span>
         </Box>
         <Routes>
-          <Route path="home" element={<React.Fragment>
-            <img src={logo} className="App-logo" alt="logo" />
-            <div className="who">{t('who')}</div>
-            <div className="where">{t('where')}</div>
-            <div className="coming-soon">{t('coming-soon')}</div>
-          </React.Fragment>} />
-          <Route path="location" element={<React.Fragment>
-            <p>Location</p>
-          </React.Fragment>} />
+          <Route path="home" element={
+            <div id="home">
+              <img src={logo} className="App-logo" alt="logo" />
+              <div className="who">{t('who')}</div>
+              <div className="where">{t('where')}</div>
+              <div className="coming-soon">{t('coming-soon')}</div>
+            </div>
+          } />
+          <Route path="location" element={
+            <div id="location">
+              <div className="title">{t('location-title')}</div>
+              <div className="location-description-1">{t('location-description-1')}</div>
+              <div className="location-description-1">{t('location-description-1')}</div>
+              <div className="location-description-2">{t('location-description-2')}</div>
+              <div className="location-description-3">{t('location-description-3')}</div>
+              <div className="location-amenities">
+                {t('location-amenities')}
+                <li>{t('location-amenities-1')}</li>
+                <li>{t('location-amenities-2')}</li>
+                <li>{t('location-amenities-3')}</li>
+                <li>{t('location-amenities-4')}</li>
+                <li>{t('location-amenities-5')}</li>
+              </div>
+            </div>} />
           <Route path="agenda" element={<React.Fragment>
             <p>Agenda</p>
           </React.Fragment>} />
