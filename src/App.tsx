@@ -20,18 +20,15 @@ import "./i18n";
 import { useTranslation } from "react-i18next";
 import { availableLanguages } from "./i18n";
 
-
-
 interface ListItemLinkProps {
   icon?: React.ReactElement;
   primary: string;
   to: string;
 }
 
-
 function App() {
   const [open, setState] = useState<boolean>(false);
-  const {t, i18n} = useTranslation()
+  const { t, i18n } = useTranslation()
 
   const toggleDrawer = (open: boolean) => {
     setState(open);
