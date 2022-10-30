@@ -83,11 +83,11 @@ function App() {
             <Divider sx={{ mb: 2 }} />
           </Box>
         </SwipeableDrawer>
-        <select defaultValue={i18n.language} onChange={(e) => i18n.changeLanguage(e.target.value)}>
-          {availableLanguages.map((language) => (
-            <option key={language}>{language}</option>
-          ))}
-        </select>
+        <Box className="lang" >
+          <span onClick={() => i18n.changeLanguage("en")} className={i18n.language == "en" ? "current" : ""}>en</span>|
+          <span onClick={() => i18n.changeLanguage("it")} className={i18n.language == "it" ? "current" : ""}>it</span>|
+          <span onClick={() => i18n.changeLanguage("pt")} className={i18n.language == "pt" ? "current" : ""}>pt</span>
+        </Box>
         <Routes>
           <Route path="home" element={<React.Fragment>
             <img src={logo} className="App-logo" alt="logo" />

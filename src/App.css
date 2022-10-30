@@ -38,6 +38,24 @@
   border-color: #FF5734;
 }
 
+.lang {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 0;
+  margin: 0.8em 0.5em;
+}
+
+.lang span {
+  margin: 0 0.5em;
+  font-weight: 400;
+}
+
+.lang span.current {
+  font-weight: 800;
+  color: #FF5734;
+}
+
 .who {
   font-family: Didot, Didot LT STD, serif;
   font-weight: 400;
