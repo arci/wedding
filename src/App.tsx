@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from './logo.svg';
+import menu from './menu.png';
 import './App.css';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import IconButton from "@mui/material/IconButton";
@@ -31,7 +32,7 @@ function App() {
           }
         }}
       >
-        Test
+        <img src={menu} className="menu" alt="logo" />
       </IconButton>
       <SwipeableDrawer
         anchor="left"
