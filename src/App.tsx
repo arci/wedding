@@ -16,7 +16,11 @@ import {
   Routes
 } from "react-router-dom";
 import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
+import "./i18n";
+import { useTranslation } from "react-i18next";
+import { availableLanguages } from "./i18n";
+
+
 
 interface ListItemLinkProps {
   icon?: React.ReactElement;
@@ -27,14 +31,14 @@ interface ListItemLinkProps {
 
 function App() {
   const [open, setState] = useState<boolean>(false);
-
+  const {t, i18n} = useTranslation()
 
   const toggleDrawer = (open: boolean) => {
     setState(open);
   };
 
   function ListItemLink(props: ListItemLinkProps) {
-    const {primary, to } = props;
+    const { primary, to } = props;
 
     return (
       <li>
@@ -82,12 +86,17 @@ function App() {
             <Divider sx={{ mb: 2 }} />
           </Box>
         </SwipeableDrawer>
+        <select defaultValue={i18n.language} onChange={(e) => i18n.changeLanguage(e.target.value)}>
+          {availableLanguages.map((language) => (
+            <option key={language}>{language}</option>
+          ))}
+        </select>
         <Routes>
           <Route path="home" element={<React.Fragment>
             <img src={logo} className="App-logo" alt="logo" />
-            <div className="who">fabio - marília</div>
-            <div className="where">Saturday, July 8, 2023 at 6 pm in Ragusa, Sicily</div>
-            <div className="coming-soon">Formal invitation and details to follow.</div>
+            <div className="who">{t('who')}</div>
+            <div className="where">{t('where')}</div>
+            <div className="coming-soon">{t('coming-soon')}</div>
           </React.Fragment>} />
           <Route path="location" element={<React.Fragment>
             <p>Location</p>
