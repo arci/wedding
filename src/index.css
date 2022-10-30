@@ -3,6 +3,8 @@ body {
   font-family: Helvetica, Sans-Serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 code {

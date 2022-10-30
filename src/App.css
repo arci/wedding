@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.menu{
+.menu {
   width: 1.2em;
 }
 
@@ -36,4 +36,16 @@
 .box hr {
   margin: 0 1em 2em 1em;
   border-color: #FF5734;
+}
+
+.who {
+  font-family: Didot, Didot LT STD, serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.where {
+  line-height: 24px;
+  margin: 16px 20%;
 }

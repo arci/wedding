@@ -85,9 +85,9 @@ function App() {
         <Routes>
           <Route path="home" element={<React.Fragment>
             <img src={logo} className="App-logo" alt="logo" />
-            <p>fabio - marília</p>
-            <p>Saturday, July 8, 2023 at 6 pm in Ragusa, Sicily</p>
-            <p>Formal invitation and details to follow.</p>
+            <div className="who">fabio - marília</div>
+            <div className="where">Saturday, July 8, 2023 at 6 pm in Ragusa, Sicily</div>
+            <div className="coming-soon">Formal invitation and details to follow.</div>
           </React.Fragment>} />
           <Route path="location" element={<React.Fragment>
             <p>Location</p>
