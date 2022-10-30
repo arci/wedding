@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import logo from './logo.svg';
 import menu from './menu.png';
 import './App.css';
-import SwipeableDrawer from '@mui/material/SwipeableDrawer';
-import IconButton from "@mui/material/IconButton";
-import Box from "@mui/material/Box";
-import Divider from "@mui/material/Divider";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
+import {
+  SwipeableDrawer,
+  IconButton,
+  Box,
+  Divider,
+  ListItemText
+} from "@mui/material";
 import {
   BrowserRouter as Router,
   Route,
@@ -26,14 +27,14 @@ interface ListItemLinkProps {
 
 function App() {
   const [open, setState] = useState<boolean>(false);
-  
-  
+
+
   const toggleDrawer = (open: boolean) => {
     setState(open);
   };
 
   function ListItemLink(props: ListItemLinkProps) {
-    const { icon, primary, to } = props;
+    const {primary, to } = props;
 
     return (
       <li>
