@@ -1,19 +1,7 @@
 .App {
-  margin: 0 0.8em;
-}
-
-.App-header {
   background-color: #FBF9F7;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #11223F;
-}
-
-.App-link {
+  margin: 0 0.8em 3em 0.8em;
   color: #11223F;
 }
 
