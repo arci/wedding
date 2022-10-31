@@ -8,7 +8,7 @@ function FAQs() {
     return (
         <div id="faqs" className="page">
             <div className="page-title">{t('faqs-title')}</div>
-            <p>TODO</p>
+            <p>Coming soon</p>
         </div>
     )
 }

@@ -8,7 +8,7 @@ function Agenda() {
     return (
         <div id="agenda" className="page">
             <div className="page-title">{t('agenda-title')}</div>
-            <p>TODO</p>
+            <p>Coming soon</p>
         </div>
     )
 }

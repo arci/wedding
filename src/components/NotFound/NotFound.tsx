@@ -7,8 +7,8 @@ function NotFound() {
 
     return (
         <div id="not-found" className="page">
-            <p>Ops!</p>
-            <p>page not found</p>
+            <div className="page-title">Ops!</div>
+            <p>{t('not-found')} ¯\_(ツ)_/¯</p>
         </div>
     )
 }
