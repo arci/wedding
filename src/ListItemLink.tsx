@@ -1,19 +1,10 @@
-import React, { FC } from 'react';
-import { useTranslation } from 'react-i18next';
-import logo from './logo.svg';
+import React from 'react';
 import {
-  SwipeableDrawer,
-  IconButton,
-  Box,
-  Divider,
   ListItemText,
   ListItem
 } from "@mui/material";
 import {
-  BrowserRouter as Router,
-  Route,
   Link,
-  Routes
 } from "react-router-dom";
 
 interface ListItemLinkProps {
