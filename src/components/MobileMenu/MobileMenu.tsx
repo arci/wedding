@@ -1,6 +1,5 @@
 import { useState } from "react";
 import menu from './menu.png';
-import './App.css';
 import {
   SwipeableDrawer,
   IconButton,
@@ -12,12 +11,12 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-import Home from "./Home";
-import Location from "./Location";
-import Agenda from "./Agenda";
-import RSVP from "./RSVP";
-import FAQs from "./FAQs";
-import NotFound from "./NotFound";
+import Home from "../Home/Home";
+import Location from "../Location/Location";
+import Agenda from "../Agenda/Agenda";
+import RSVP from "../RSVP/RSVP";
+import FAQs from "../FAQs/FAQs";
+import NotFound from "../NotFound/NotFound";
 import ListItemLink from "./ListItemLink";
 
 function MobileMenu() {

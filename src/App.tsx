@@ -1,6 +1,6 @@
 import './App.css';
-import MobileMenu from "./MobileMenu";
-import LanguageSelector from "./LanguageSelector";
+import MobileMenu from "./components/MobileMenu/MobileMenu";
+import LanguageSelector from "./components/LanguageSelector/LanguageSelector";
 
 function App() {
   return (

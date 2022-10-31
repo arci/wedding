@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 function FAQs() {
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
 
     return (
         <div id="faqs">
