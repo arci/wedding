@@ -30,5 +30,3 @@ i18n
     },
     fallbackLng: "en",
   });
-
-export const availableLanguages = ['en', 'it', 'pt']

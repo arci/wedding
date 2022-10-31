@@ -18,7 +18,6 @@ import {
 import ListItem from "@mui/material/ListItem";
 import "./i18n";
 import { useTranslation } from "react-i18next";
-import { availableLanguages } from "./i18n";
 
 interface ListItemLinkProps {
   icon?: React.ReactElement;
@@ -71,7 +70,7 @@ function App() {
           onOpen={() => toggleDrawer(true)}
         >
           <Box className="box" sx={{ mb: 2 }}>
-            <ListItemLink to="/home" primary="Home" />
+            <ListItemLink to="/" primary="Home" />
             <Divider sx={{ mb: 2 }} />
             <ListItemLink to="/location" primary="Location" />
             <Divider sx={{ mb: 2 }} />
@@ -89,7 +88,7 @@ function App() {
           <span onClick={() => i18n.changeLanguage("pt")} className={i18n.language == "pt" ? "current" : ""}>pt</span>
         </Box>
         <Routes>
-          <Route path="home" element={
+          <Route path="/" element={
             <div id="home">
               <img src={logo} className="App-logo" alt="logo" />
               <div className="who">{t('who')}</div>
@@ -121,6 +120,9 @@ function App() {
           </React.Fragment>} />
           <Route path="faqs" element={<React.Fragment>
             <p>FAQs</p>
+          </React.Fragment>} />
+          <Route path="*" element={<React.Fragment>
+            <p>Ops</p>
           </React.Fragment>} />
         </Routes>
       </Router>
