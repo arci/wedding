@@ -13,6 +13,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 import Home from "../Home/Home";
 import Location from "../Location/Location";
 import Agenda from "../Agenda/Agenda";
@@ -27,6 +28,8 @@ function MobileMenu() {
   const toggleDrawer = (open: boolean) => {
     setState(open);
   };
+
+  const { t } = useTranslation()
 
   return (
     <Router>
@@ -52,15 +55,15 @@ function MobileMenu() {
         onOpen={() => toggleDrawer(true)}
       >
         <Box className="box" sx={{ mb: 2 }}>
-          <ListItemLink to="/" primary="Home" onClick={() => toggleDrawer(false)} />
+          <ListItemLink to="/" primary={t('home')} onClick={() => toggleDrawer(false)} />
           <Divider sx={{ mb: 2 }} />
-          <ListItemLink to="/location" primary="Location" onClick={() => toggleDrawer(false)} />
+          <ListItemLink to="/location" primary={t('location')} onClick={() => toggleDrawer(false)} />
           <Divider sx={{ mb: 2 }} />
-          <ListItemLink to="/agenda" primary="Agenda" onClick={() => toggleDrawer(false)} />
+          <ListItemLink to="/agenda" primary={t('agenda')} onClick={() => toggleDrawer(false)} />
           <Divider sx={{ mb: 2 }} />
-          <ListItemLink to="/rsvp" primary="RSVP" onClick={() => toggleDrawer(false)} />
+          <ListItemLink to="/rsvp" primary={t('rsvp')} onClick={() => toggleDrawer(false)} />
           <Divider sx={{ mb: 2 }} />
-          <ListItemLink to="/faqs" primary="FAQs" onClick={() => toggleDrawer(false)} />
+          <ListItemLink to="/faqs" primary={t('faqs')} onClick={() => toggleDrawer(false)} />
           <Divider sx={{ mb: 2 }} />
         </Box>
       </SwipeableDrawer>
