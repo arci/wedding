@@ -6,7 +6,7 @@ function FAQs() {
     const { t } = useTranslation()
 
     return (
-        <div id="faqs">
+        <div id="faqs" className="page">
             <div className="page-title">{t('faqs-title')}</div>
             <p>TODO</p>
         </div>

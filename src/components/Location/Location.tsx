@@ -6,7 +6,7 @@ function Location() {
     const { t } = useTranslation()
 
     return (
-        <div id="location">
+        <div id="location" className="page">
             <div className="page-title">{t('location-title')}</div>
             <div className="location-description-1">{t('location-description-1')}</div>
             <div className="location-description-1">{t('location-description-1')}</div>

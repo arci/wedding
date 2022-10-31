@@ -7,7 +7,7 @@ function Home() {
     const { t } = useTranslation()
 
     return (
-        <div id="home">
+        <div id="home" className="page">
             <img src={logo} className="logo" alt="logo" />
             <div className="who">{t('who')}</div>
             <div className="where">{t('where')}</div>

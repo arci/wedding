@@ -5,6 +5,10 @@
   color: #11223F;
 }
 
+.page {
+  margin: 0 1em;
+}
+
 .page-title {
   font-family: Didot, Didot LT STD, serif;
   font-weight: 400;

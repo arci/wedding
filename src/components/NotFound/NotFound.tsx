@@ -6,7 +6,7 @@ function NotFound() {
     const { t } = useTranslation()
 
     return (
-        <div id="not-found">
+        <div id="not-found" className="page">
             <p>Ops!</p>
             <p>page not found</p>
         </div>

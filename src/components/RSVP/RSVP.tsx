@@ -6,7 +6,7 @@ function RSVP() {
     const { t } = useTranslation()
 
     return (
-        <div id="rsvp">
+        <div id="rsvp" className="page">
             <div className="page-title">{t('rsvp-title')}</div>
             <p>TODO</p>
         </div>
