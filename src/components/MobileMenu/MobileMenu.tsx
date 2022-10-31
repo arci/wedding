@@ -1,5 +1,5 @@
 import './MobileMenu.css';
-import menu from './hamburger.png';
+import menu from './hamburger.svg';
 
 import { useState } from "react";
 import {

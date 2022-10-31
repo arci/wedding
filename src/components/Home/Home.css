@@ -1,10 +1,15 @@
+#home {
+    text-align: center;
+    margin-top: 2em;
+}
+
 #home .logo {
-    height: 40vmin;
+    height: 20vmin;
     pointer-events: none;
 }
 
-#home {
-    text-align: center;
+#home div {
+    margin: 0.5em 0;
 }
 
 #home .who {
@@ -16,5 +21,5 @@
 
 #home .where {
     line-height: 24px;
-    margin: 16px 3.5em;
+    margin: 0 3.5em 1em 3.5em;
 }
