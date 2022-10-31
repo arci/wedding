@@ -6,15 +6,12 @@ import {
   IconButton,
   Box,
   Divider,
-  ListItemText
 } from "@mui/material";
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   Routes
 } from "react-router-dom";
-import ListItem from "@mui/material/ListItem";
 import "./i18n";
 import { useTranslation } from "react-i18next";
 import Home from "./Home";
@@ -22,33 +19,16 @@ import Location from "./Location";
 import Agenda from "./Agenda";
 import RSVP from "./RSVP";
 import FAQs from "./FAQs";
-import NotFound from "./FAQs copy";
-
-interface ListItemLinkProps {
-  icon?: React.ReactElement;
-  primary: string;
-  to: string;
-}
+import NotFound from "./NotFound";
+import ListItemLink from "./ListItemLink";
 
 function App() {
   const [open, setState] = useState<boolean>(false);
-  const { t, i18n } = useTranslation()
+  const { i18n } = useTranslation()
 
   const toggleDrawer = (open: boolean) => {
     setState(open);
   };
-
-  function ListItemLink(props: ListItemLinkProps) {
-    const { primary, to } = props;
-
-    return (
-      <li>
-        <ListItem button component={Link} to={to} onClick={() => toggleDrawer(false)}>
-          <ListItemText primary={primary} />
-        </ListItem>
-      </li>
-    );
-  }
 
   return (
     <div className="App">
@@ -75,15 +55,15 @@ function App() {
           onOpen={() => toggleDrawer(true)}
         >
           <Box className="box" sx={{ mb: 2 }}>
-            <ListItemLink to="/" primary="Home" />
+            <ListItemLink to="/" primary="Home" onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
-            <ListItemLink to="/location" primary="Location" />
+            <ListItemLink to="/location" primary="Location" onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
-            <ListItemLink to="/agenda" primary="Agenda" />
+            <ListItemLink to="/agenda" primary="Agenda" onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
-            <ListItemLink to="/rsvp" primary="RSVP" />
+            <ListItemLink to="/rsvp" primary="RSVP" onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
-            <ListItemLink to="/faqs" primary="FAQs" />
+            <ListItemLink to="/faqs" primary="FAQs" onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
           </Box>
         </SwipeableDrawer>
