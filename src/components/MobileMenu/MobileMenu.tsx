@@ -1,5 +1,7 @@
+import './MobileMenu.css';
+import menu from './hamburger.png';
+
 import { useState } from "react";
-import menu from './menu.png';
 import {
   SwipeableDrawer,
   IconButton,

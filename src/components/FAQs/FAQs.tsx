@@ -1,3 +1,5 @@
+import './FAQs.css';
+
 import { useTranslation } from 'react-i18next';
 
 function FAQs() {

@@ -1,3 +1,5 @@
+import './RSVP.css';
+
 import { useTranslation } from 'react-i18next';
 
 function RSVP() {
