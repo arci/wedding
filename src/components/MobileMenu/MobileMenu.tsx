@@ -46,7 +46,7 @@ function MobileMenu() {
           }
         }}
       >
-        <img src={menu} className="menu" alt="logo" />
+        <img src={menu} className="menu-icon" alt="logo" />
       </IconButton>
       <SwipeableDrawer
         anchor="left"
@@ -54,7 +54,7 @@ function MobileMenu() {
         onClose={() => toggleDrawer(false)}
         onOpen={() => toggleDrawer(true)}
       >
-        <Box className="box" sx={{ mb: 2 }}>
+        <Box className="mobile-menu" sx={{ mb: 2 }}>
           <ListItemLink to="/" primary={t('home')} onClick={() => toggleDrawer(false)} />
           <Divider sx={{ mb: 2 }} />
           <ListItemLink to="/location" primary={t('location')} onClick={() => toggleDrawer(false)} />

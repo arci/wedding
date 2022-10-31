@@ -11,19 +11,19 @@ interface ListItemLinkProps {
   icon?: React.ReactElement;
   primary: string;
   to: string;
-  onClick: any
+  onClick: React.ReactEventHandler<{}>
 }
 
 function ListItemLink(props: ListItemLinkProps) {
-    const { primary, to, onClick } = props;
+  const { primary, to, onClick } = props;
 
-    return (
-      <li>
-        <ListItem button component={Link} to={to} onClick={onClick}>
-          <ListItemText primary={primary} />
-        </ListItem>
-      </li>
-    );
-  }
+  return (
+    <li>
+      <ListItem button component={Link} to={to} onClick={onClick}>
+        <ListItemText primary={primary} />
+      </ListItem>
+    </li>
+  );
+}
 
 export default ListItemLink;

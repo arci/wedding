@@ -1,0 +1,20 @@
+#home .logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+#home {
+    text-align: center;
+}
+
+#home .who {
+    font-family: Didot, Didot LT STD, serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+}
+
+#home .where {
+    line-height: 24px;
+    margin: 16px 20%;
+}

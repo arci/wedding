@@ -7,7 +7,7 @@ function Location() {
 
     return (
         <div id="location">
-            <div className="title">{t('location-title')}</div>
+            <div className="page-title">{t('location-title')}</div>
             <div className="location-description-1">{t('location-description-1')}</div>
             <div className="location-description-1">{t('location-description-1')}</div>
             <div className="location-description-2">{t('location-description-2')}</div>

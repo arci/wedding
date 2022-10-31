@@ -1,0 +1,14 @@
+.menu-icon {
+    width: 1.2em;
+}
+
+.mobile-menu {
+    width: 18em;
+    list-style: none;
+    padding-top: 2em;
+}
+
+.mobile-menu hr {
+    margin: 0 1em 2em 1em;
+    border-color: #FF5734;
+}
