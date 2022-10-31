@@ -105,11 +105,11 @@ function App() {
               <div className="location-description-3">{t('location-description-3')}</div>
               <div className="location-amenities">
                 {t('location-amenities')}
-                <li>{t('location-amenities-1')}</li>
-                <li>{t('location-amenities-2')}</li>
-                <li>{t('location-amenities-3')}</li>
-                <li>{t('location-amenities-4')}</li>
-                <li>{t('location-amenities-5')}</li>
+                <li><span>{t('location-amenities-1')}</span></li>
+                <li><span>{t('location-amenities-2')}</span></li>
+                <li><span>{t('location-amenities-3')}</span></li>
+                <li><span>{t('location-amenities-4')}</span></li>
+                <li><span>{t('location-amenities-5')}</span></li>
               </div>
             </div>} />
           <Route path="agenda" element={<React.Fragment>

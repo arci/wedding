@@ -91,3 +91,7 @@
 #location li {
   margin-left: 0.6em;
 }
+
+#location li span{
+  margin-left: -0.3em;
+}
