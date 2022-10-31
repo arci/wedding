@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from './logo.svg';
 import menu from './menu.png';
 import './App.css';
 import {
@@ -18,6 +17,12 @@ import {
 import ListItem from "@mui/material/ListItem";
 import "./i18n";
 import { useTranslation } from "react-i18next";
+import Home from "./Home";
+import Location from "./Location";
+import Agenda from "./Agenda";
+import RSVP from "./RSVP";
+import FAQs from "./FAQs";
+import NotFound from "./FAQs copy";
 
 interface ListItemLinkProps {
   icon?: React.ReactElement;
@@ -88,42 +93,12 @@ function App() {
           <span onClick={() => i18n.changeLanguage("pt")} className={i18n.language == "pt" ? "current" : ""}>pt</span>
         </Box>
         <Routes>
-          <Route path="/" element={
-            <div id="home">
-              <img src={logo} className="App-logo" alt="logo" />
-              <div className="who">{t('who')}</div>
-              <div className="where">{t('where')}</div>
-              <div className="coming-soon">{t('coming-soon')}</div>
-            </div>
-          } />
-          <Route path="location" element={
-            <div id="location">
-              <div className="title">{t('location-title')}</div>
-              <div className="location-description-1">{t('location-description-1')}</div>
-              <div className="location-description-1">{t('location-description-1')}</div>
-              <div className="location-description-2">{t('location-description-2')}</div>
-              <div className="location-description-3">{t('location-description-3')}</div>
-              <div className="location-amenities">
-                {t('location-amenities')}
-                <li><span>{t('location-amenities-1')}</span></li>
-                <li><span>{t('location-amenities-2')}</span></li>
-                <li><span>{t('location-amenities-3')}</span></li>
-                <li><span>{t('location-amenities-4')}</span></li>
-                <li><span>{t('location-amenities-5')}</span></li>
-              </div>
-            </div>} />
-          <Route path="agenda" element={<React.Fragment>
-            <p>Agenda</p>
-          </React.Fragment>} />
-          <Route path="rsvp" element={<React.Fragment>
-            <p>RSVP</p>
-          </React.Fragment>} />
-          <Route path="faqs" element={<React.Fragment>
-            <p>FAQs</p>
-          </React.Fragment>} />
-          <Route path="*" element={<React.Fragment>
-            <p>Ops</p>
-          </React.Fragment>} />
+          <Route path="/" element={<Home />} />
+          <Route path="location" element={<Location />} />
+          <Route path="agenda" element={<Agenda />} />
+          <Route path="rsvp" element={<RSVP />} />
+          <Route path="faqs" element={<FAQs />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </div>
