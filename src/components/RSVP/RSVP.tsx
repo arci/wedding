@@ -7,6 +7,7 @@ function RSVP() {
 
     return (
         <div id="rsvp">
+            <div className="page-title">{t('rsvp-title')}</div>
             <p>TODO</p>
         </div>
     )

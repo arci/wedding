@@ -7,6 +7,7 @@ function FAQs() {
 
     return (
         <div id="faqs">
+            <div className="page-title">{t('faqs-title')}</div>
             <p>TODO</p>
         </div>
     )

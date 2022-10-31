@@ -7,6 +7,7 @@ function Agenda() {
 
     return (
         <div id="agenda">
+            <div className="page-title">{t('agenda-title')}</div>
             <p>TODO</p>
         </div>
     )
