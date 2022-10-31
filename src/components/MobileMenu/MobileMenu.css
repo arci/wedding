@@ -5,12 +5,14 @@
 }
 
 .mobile-menu {
+    background-color: #FBF9F7;
+    height: 100vh;
     width: 18em;
     list-style: none;
     padding-top: 2em;
 }
 
 .mobile-menu hr {
-    margin: 0 1em 2em 1em;
+    margin: 0 1em 1em 1em;
     border-color: #FF5734;
 }
