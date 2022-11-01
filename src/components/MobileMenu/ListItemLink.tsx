@@ -1,4 +1,4 @@
-import React from 'react';
+import { ReactEventHandler } from 'react';
 import {
   ListItemText,
   ListItem
@@ -10,7 +10,7 @@ import {
 interface ListItemLinkProps {
   primary: string;
   to: string;
-  onClick: React.ReactEventHandler<{}>
+  onClick: ReactEventHandler<{}>
 }
 
 function ListItemLink(props: ListItemLinkProps) {
