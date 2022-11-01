@@ -39,6 +39,7 @@
 #agenda .day-plan .section {
     display: flex;
     border-bottom: 1px solid #FF5734;
+    margin-bottom: 1em;
 }
 
 #agenda .day-plan .section .name {
@@ -47,7 +48,9 @@
     line-height: 24px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    padding-right: 5em;
+    padding-right: 4em;
+    min-width: 40px;
+    max-width: 80px;
 }
 
 #agenda .day-plan .section .content p {
@@ -56,4 +59,13 @@
     line-height: 24px;
     margin: 0 0 1em 0;
     padding-right: 1em;
+}
+
+#agenda .day-plan .section .content .note {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+#agenda .day-plan .section .content .button-secondary {
+    margin-bottom: 1.5em;
 }
