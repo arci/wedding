@@ -37,9 +37,9 @@ function Location() {
                 <li><span>{t('location-amenities-5')}</span></li>
             </div>
             <Map zoom={9} center={[37.1156893, 14.7667613]}>
-                <Marker position={dimoraDiSpartivento} title="Dimora di Spartivento" icon={weddingIcon} />
+                {/* <Marker position={dimoraDiSpartivento} title="Dimora di Spartivento" icon={weddingIcon} />
                 <Marker position={cataniaAirport} title="Aereoporto di Catania" icon={airportIcon} />
-                <Marker position={comisoAirport} title="Aereoporto di Comiso" icon={airportIcon} />
+                <Marker position={comisoAirport} title="Aereoporto di Comiso" icon={airportIcon} /> */}
             </Map>
         </div>
     )
