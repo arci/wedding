@@ -29,3 +29,31 @@
     border-bottom: 1px solid #FF5734;
     color: #11223F;
 }
+
+#agenda .day-plan .section-title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#agenda .day-plan .section {
+    display: flex;
+    border-bottom: 1px solid #FF5734;
+}
+
+#agenda .day-plan .section .key {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-right: 5em;
+}
+
+#agenda .day-plan .section .content p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 1em 0;
+    padding-left: 1em;
+}

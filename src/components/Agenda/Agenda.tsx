@@ -17,10 +17,14 @@ function Agenda() {
                     <Tab>{t('sunday')}</Tab>
                 </TabList>
                 <TabPanel>
-                    <SaturdayPlan />
+                    <div className="day-plan">
+                        <SaturdayPlan />
+                    </div>
                 </TabPanel>
                 <TabPanel>
-                    <SundayPlan />
+                    <div className="day-plan">
+                        <SundayPlan />
+                    </div>
                 </TabPanel>
             </Tabs>
         </div>
