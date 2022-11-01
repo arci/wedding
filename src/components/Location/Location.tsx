@@ -9,7 +9,6 @@ function Location() {
         <div id="location" className="page">
             <div className="page-title">{t('location-title')}</div>
             <div className="location-description-1">{t('location-description-1')}</div>
-            <div className="location-description-1">{t('location-description-1')}</div>
             <div className="location-description-2">{t('location-description-2')}</div>
             <div className="location-description-3">{t('location-description-3')}</div>
             <div className="location-amenities">
