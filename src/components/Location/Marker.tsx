@@ -2,14 +2,7 @@ import "./Map.css"
 
 import { useEffect, useState } from "react";
 
-interface MarkerProps {
-    name: string;
-    lat: number;
-    lng: number;
-}
-
-function Marker(props: MarkerProps) {
-    const { lat, lng } = props;
+function Marker(options: google.maps.MarkerOptions) {
     const [marker, setMarker] = useState<google.maps.Marker>();
 
     useEffect(() => {
@@ -25,9 +18,6 @@ function Marker(props: MarkerProps) {
         };
     }, [marker]);
 
-    const options = {
-        position: new google.maps.LatLng(lat, lng)
-    }
     useEffect(() => {
         if (marker) {
             marker.setOptions(options);

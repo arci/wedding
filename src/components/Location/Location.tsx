@@ -23,11 +23,11 @@ function Location() {
                 <li><span>{t('location-amenities-4')}</span></li>
                 <li><span>{t('location-amenities-5')}</span></li>
             </div>
-            <Wrapper apiKey={"AIzaSyDSFescMQEuS3MYOPjToNlW0lTxJ0ciN8w"}>
-                <Map zoom={5} center={[37.1156893, 14.7667613]}>
-                    <Marker lat={36.8785649} lng={14.6960739} />
-                </Map>
-            </Wrapper>
+            <Map zoom={9} center={[37.1156893, 14.7667613]}>
+                <Marker position={new google.maps.LatLng(36.8785649, 14.6960739)} />
+                <Marker position={new google.maps.LatLng(37.4732189, 15.0598244)} />
+                <Marker position={new google.maps.LatLng(36.9983724, 14.6029192)} />
+            </Map>
         </div>
     )
 }

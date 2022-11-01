@@ -6,7 +6,7 @@ import React from "react";
 interface MapProps {
     zoom: number;
     center: number[];
-    children?: JSX.Element;
+    children?: JSX.Element[];
 }
 
 function Map(props: MapProps) {
@@ -19,7 +19,7 @@ function Map(props: MapProps) {
     useEffect(() => {
         if (ref.current && !map) {
             setMap(new window.google.maps.Map(ref.current, {
-                zoom: 5,
+                zoom,
                 center: new google.maps.LatLng(center[0], center[1]),
                 mapTypeControl: false,
                 streetViewControl: false,
@@ -39,6 +39,7 @@ function Map(props: MapProps) {
                     return React.cloneElement(child, { map });
                 }
             })}
+            <p className="anchor" />
         </>
     )
 }
