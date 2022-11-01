@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@googlemaps/react-wrapper": "^1.1.35",
     "@mui/material": "^5.10.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +14,7 @@
     "@types/node": "^16.18.2",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
+    "google-map-react": "^2.2.0",
     "i18next": "^22.0.4",
     "i18next-browser-languagedetector": "^7.0.0",
     "react": "^18.2.0",
@@ -46,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.50.4"
   }
 }

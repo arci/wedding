@@ -1,6 +1,9 @@
 import './Location.css';
 
 import { useTranslation } from 'react-i18next';
+import { Wrapper, Status } from "@googlemaps/react-wrapper";
+import Map from './Map'
+import Marker from './Marker'
 
 function Location() {
     const { t } = useTranslation()
@@ -20,6 +23,11 @@ function Location() {
                 <li><span>{t('location-amenities-4')}</span></li>
                 <li><span>{t('location-amenities-5')}</span></li>
             </div>
+            <Wrapper apiKey={"AIzaSyDSFescMQEuS3MYOPjToNlW0lTxJ0ciN8w"}>
+                <Map zoom={5} center={[37.1156893, 14.7667613]}>
+                    <Marker lat={36.8785649} lng={14.6960739} />
+                </Map>
+            </Wrapper>
         </div>
     )
 }
