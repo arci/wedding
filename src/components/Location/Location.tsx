@@ -1,6 +1,7 @@
 import './Location.css';
 
 import { useTranslation } from 'react-i18next';
+import { Button } from '@mui/material';
 
 function Location() {
     const { t } = useTranslation()
@@ -19,6 +20,11 @@ function Location() {
                 <li><span>{t('location-amenities-4')}</span></li>
                 <li><span>{t('location-amenities-5')}</span></li>
             </div>
+            <div className="section-title">How to get there</div>
+            <div className="get-there-1">If you come by plane, we can arrange a transfer from Comiso or Catania airport.</div>
+            <div className="get-there-2">If you are staying in another place nearby, we can arrange a transfer from there to La Dimora and vice-versa.</div>
+            <div className="get-there-3">If you prefer to rent a car, La Dimora is a 23-minute drive from Comiso Airport and a 1h30-hour drive from Catania Airport. </div>
+            <Button className="button-secondary" variant="outlined" target="_blank" href='https://goo.gl/maps/yce7DY31rtnVvMqz7'>Get directions</Button>
         </div>
     )
 }

@@ -30,13 +30,6 @@
     color: #11223F;
 }
 
-#agenda .day-plan .section-title {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 24px;
-    margin-top: 1.6em;
-}
-
 #agenda .day-plan .section {
     display: flex;
     border-bottom: 1px solid #FF5734;
@@ -68,5 +61,5 @@
 }
 
 #agenda .day-plan .section .content .button-secondary {
-    margin-bottom: 1.5em;
+    margin: 0 0 1.5em 0 !important;
 }
