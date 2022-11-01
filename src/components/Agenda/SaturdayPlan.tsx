@@ -16,7 +16,7 @@ function SaturdayPlan() {
                 <p>Arrived too early? No problem! You can leave your luggage at the desk and chill in the pool.</p>
             </Section>
             <Section name="where">
-                <p>Dimora di Spartivento<br/>SS115, km 323<br/>between Ragusa and Modica, Sicily.</p>
+                <p>Dimora di Spartivento<br />SS115, km 323<br />between Ragusa and Modica, Sicily.</p>
                 <Button className="button-secondary" variant="outlined" target="_blank" href='https://goo.gl/maps/yce7DY31rtnVvMqz7'>Get directions</Button>
             </Section>
             <p className='section-title'>Welcome Cocktail & Granitas</p>
