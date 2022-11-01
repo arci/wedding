@@ -2,6 +2,8 @@ import './Agenda.css';
 
 import { useTranslation } from 'react-i18next';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import SaturdayPlan from './SaturdayPlan';
+import SundayPlan from './SundayPlan';
 
 function Agenda() {
     const { t } = useTranslation()
@@ -14,12 +16,11 @@ function Agenda() {
                     <Tab>Saturday</Tab>
                     <Tab>Sunday</Tab>
                 </TabList>
-
                 <TabPanel>
-                    <p>Saturday plan</p>
+                    <SaturdayPlan />
                 </TabPanel>
                 <TabPanel>
-                    <p>Sunday  plan</p>
+                    <SundayPlan />
                 </TabPanel>
             </Tabs>
         </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import { ReactElement, ReactEventHandler } from 'react';
 import {
   ListItemText,
   ListItem
@@ -8,10 +8,10 @@ import {
 } from "react-router-dom";
 
 interface ListItemLinkProps {
-  icon?: React.ReactElement;
+  icon?: ReactElement;
   primary: string;
   to: string;
-  onClick: React.ReactEventHandler<{}>
+  onClick: ReactEventHandler<{}>
 }
 
 function ListItemLink(props: ListItemLinkProps) {
