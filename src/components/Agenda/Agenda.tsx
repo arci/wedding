@@ -13,14 +13,18 @@ function Agenda() {
             <div className="page-title">{t('agenda-title')}</div>
             <Tabs>
                 <TabList>
-                    <Tab>Saturday</Tab>
-                    <Tab>Sunday</Tab>
+                    <Tab>{t('saturday')}</Tab>
+                    <Tab>{t('sunday')}</Tab>
                 </TabList>
                 <TabPanel>
-                    <SaturdayPlan />
+                    <div className="day-plan">
+                        <SaturdayPlan />
+                    </div>
                 </TabPanel>
                 <TabPanel>
-                    <SundayPlan />
+                    <div className="day-plan">
+                        <SundayPlan />
+                    </div>
                 </TabPanel>
             </Tabs>
         </div>
