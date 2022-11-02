@@ -3,7 +3,6 @@ import airport from './airport.png';
 import wedding from './wedding.png';
 
 import { useEffect, useRef, useState } from "react";
-import React from "react";
 
 interface MapProps {
     zoom: number;
