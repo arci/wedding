@@ -24,6 +24,7 @@ function Map(props: MapProps) {
                 mapTypeControl: false,
                 streetViewControl: false,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
+                mapId: "7360cdc3f6fb8bec"
 
             }));
         }
