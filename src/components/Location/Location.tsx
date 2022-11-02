@@ -10,18 +10,6 @@ import { Button } from '@mui/material';
 function Location() {
     const { t } = useTranslation()
 
-    const dimoraDiSpartivento = new google.maps.LatLng(36.8785649, 14.6960739)
-    const cataniaAirport = new google.maps.LatLng(37.4732189, 15.0598244)
-    const comisoAirport = new google.maps.LatLng(36.9983724, 14.6029192)
-    const airportIcon = {
-        url: airport,
-        scaledSize: new google.maps.Size(50, 50)
-    };
-    const weddingIcon = {
-        url: wedding,
-        scaledSize: new google.maps.Size(50, 50)
-    };
-
     return (
         <div id="location" className="page">
             <div className="page-title">{t('location-title')}</div>
@@ -41,11 +29,7 @@ function Location() {
             <div className="get-there-2">If you are staying in another place nearby, we can arrange a transfer from there to La Dimora and vice-versa.</div>
             <div className="get-there-3">If you prefer to rent a car, La Dimora is a 23-minute drive from Comiso Airport and a 1h30-hour drive from Catania Airport. </div>
             <Button className="button-secondary" variant="outlined" target="_blank" href='https://goo.gl/maps/yce7DY31rtnVvMqz7'>Get directions</Button>
-            <Map zoom={9} center={[37.1156893, 14.7667613]}>
-                {/* <Marker position={dimoraDiSpartivento} title="Dimora di Spartivento" icon={weddingIcon} />
-                <Marker position={cataniaAirport} title="Aereoporto di Catania" icon={airportIcon} />
-                <Marker position={comisoAirport} title="Aereoporto di Comiso" icon={airportIcon} /> */}
-            </Map>
+            <Map zoom={9} center={[37.1156893, 14.7667613]} />
         </div>
     )
 }
