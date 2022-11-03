@@ -10,6 +10,7 @@ function Home() {
         <div id="home" className="page">
             <img src={logo} className="logo" alt="logo" />
             <div className="who">{t('who')}</div>
+            <div className="when">{t('when')}</div>
             <div className="where">{t('where')}</div>
             <div className="coming-soon">{t('coming-soon')}</div>
         </div>
