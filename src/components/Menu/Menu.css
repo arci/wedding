@@ -21,9 +21,30 @@
     position: absolute;
     left: 0;
     top: 0;
+    width: 100%;
+    text-align: center;
+    margin: 1em 0.8em;
 }
 
 .desktop-menu li {
     list-style: none;
     display: inline-block;
+}
+
+.desktop-menu li a,
+.desktop-menu li div {
+    margin: 0;
+    padding: 0;
+}
+
+.desktop-menu span {
+    margin: 0 24px;
+    font-weight: 300;
+    size: 16px;
+    line-height: 24px;
+    color: #11223F;
+}
+
+.desktop-menu .active span {
+    color: #FF5734
 }

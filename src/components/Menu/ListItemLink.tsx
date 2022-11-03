@@ -11,15 +11,16 @@ interface ListItemLinkProps {
   primary: string;
   to: string;
   onClick?: ReactEventHandler<{}>
+  className?: string
 }
 
 function ListItemLink(props: ListItemLinkProps) {
-  const { primary, to, onClick } = props;
+  const { primary, to, onClick, className } = props;
 
   return (
     <li>
       <ListItem button component={Link} to={to} onClick={onClick}>
-        <ListItemText primary={primary} />
+        <ListItemText primary={primary} className={className} />
       </ListItem>
     </li>
   );

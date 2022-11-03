@@ -11,7 +11,8 @@ import {
 import {
   BrowserRouter as Router,
   Route,
-  Routes
+  Routes,
+  useLocation
 } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import Home from "../Home/Home";
@@ -25,6 +26,8 @@ import ListItemLink from "./ListItemLink";
 function Menu() {
   const [open, setState] = useState<boolean>(false);
 
+  const location = useLocation();
+
   const toggleDrawer = (open: boolean) => {
     setState(open);
   };
@@ -32,7 +35,7 @@ function Menu() {
   const { t } = useTranslation()
 
   return (
-    <Router>
+    <>
       <Box className='mobile-menu'>
         <IconButton
           edge="start"
@@ -79,11 +82,11 @@ function Menu() {
           }
         }}
       >
-        <ListItemLink to="/" primary={t('home')} />
-        <ListItemLink to="/location" primary={t('location')} />
-        <ListItemLink to="/agenda" primary={t('agenda')} />
-        <ListItemLink to="/rsvp" primary={t('rsvp')} />
-        <ListItemLink to="/faqs" primary={t('faqs')} />
+        <ListItemLink to="/" primary={t('home')} className={location.pathname === "/" ? "active" : ""} />
+        <ListItemLink to="/location" primary={t('location')} className={location.pathname === "/location" ? "active" : ""} />
+        <ListItemLink to="/agenda" primary={t('agenda')} className={location.pathname === "/agenda" ? "active" : ""} />
+        <ListItemLink to="/rsvp" primary={t('rsvp')} className={location.pathname === "/rsvp" ? "active" : ""} />
+        <ListItemLink to="/faqs" primary={t('faqs')} className={location.pathname === "/faqs" ? "active" : ""} />
       </Box>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -93,7 +96,7 @@ function Menu() {
         <Route path="faqs" element={<FAQs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
