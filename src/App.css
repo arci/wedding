@@ -26,12 +26,22 @@
 .button-secondary {
   text-transform: uppercase;
   font-weight: 400 !important;
-  font-size: 12px!important;
-  letter-spacing: 0.02em!important;
-  color: #11223F!important;
-  border: 1px solid #11223F!important;
-  width: 169px!important;
-  height: 44px!important;
+  font-size: 12px !important;
+  letter-spacing: 0.02em !important;
+  color: #11223F !important;
+  border: 1px solid #11223F !important;
+  width: 169px !important;
+  height: 44px !important;
   border-radius: 0 !important;
   margin: 1.5em 0 !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .App .logo {
+    margin-top: 7em;
+  }
+
+  .page {
+    margin: 5em 1em;
+  }
 }

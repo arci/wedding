@@ -1,14 +1,14 @@
 import './App.css';
 
-import MobileMenu from "./components/MobileMenu/MobileMenu";
-import LanguageSelector from "./components/LanguageSelector/LanguageSelector";
 import { Wrapper } from "@googlemaps/react-wrapper";
+import Menu from "./components/Menu/Menu";
+import LanguageSelector from "./components/LanguageSelector/LanguageSelector";
 
 function App() {
   return (
     <Wrapper apiKey={""}>
       <div className="App">
-        <MobileMenu />
+        <Menu />
         <LanguageSelector />
       </div>
     </Wrapper>

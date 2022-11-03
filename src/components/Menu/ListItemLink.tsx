@@ -10,7 +10,7 @@ import {
 interface ListItemLinkProps {
   primary: string;
   to: string;
-  onClick: ReactEventHandler<{}>
+  onClick?: ReactEventHandler<{}>
 }
 
 function ListItemLink(props: ListItemLinkProps) {
