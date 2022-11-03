@@ -1,11 +1,11 @@
 #home {
     text-align: center;
-    margin-top: 2em;
 }
 
 #home .logo {
     height: 20vmin;
     pointer-events: none;
+    margin-top: 2em;
 }
 
 #home div {
@@ -27,6 +27,7 @@
 
 @media only screen and (min-width: 900px) {
     #home .logo {
+        margin-top: 5em;
         height: 10vmin;
     }
 }

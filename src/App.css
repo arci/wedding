@@ -5,6 +5,7 @@
 
 .page {
   margin: 0 1em;
+  min-height: calc(100vh - 150px);
 }
 
 .page-title {
@@ -36,8 +37,8 @@
 }
 
 @media only screen and (min-width: 900px) {
-  .App .logo {
-    margin-top: 7em;
+  .page {
+    min-height: calc(100vh - 250px);
   }
 
   .page {

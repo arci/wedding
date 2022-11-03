@@ -119,7 +119,6 @@ function Map(props: MapProps) {
     return (
         <>
             <div ref={ref} id="map" />
-            <p className="anchor" />
         </>
     )
 }
