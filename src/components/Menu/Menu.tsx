@@ -45,8 +45,8 @@ function Menu() {
           sx={{
             mr: 2,
             display: {
-              xs: "block",
-              sm: "none"
+              sm: "block",
+              md: "none"
             }
           }}
         >
@@ -78,7 +78,8 @@ function Menu() {
           mr: 2,
           display: {
             xs: "none",
-            sm: "block"
+            sm: "none",
+            md: "block"
           }
         }}
       >
