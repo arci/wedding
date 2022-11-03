@@ -1,0 +1,36 @@
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#footer div {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #11223F;
+}
+
+#footer img {
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+#footer .groom {
+    margin-left: 1em;
+}
+
+
+@media only screen and (min-width: 900px) {
+    #footer {
+        padding-bottom: 0;
+    }
+
+    #footer .groom {
+        margin-left: 3em;
+    }
+}

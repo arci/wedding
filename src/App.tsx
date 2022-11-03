@@ -1,9 +1,10 @@
 import './App.css';
 
 import { Wrapper } from "@googlemaps/react-wrapper";
+import { BrowserRouter } from 'react-router-dom';
 import Menu from "./components/Menu/Menu";
 import LanguageSelector from "./components/LanguageSelector/LanguageSelector";
-import { BrowserRouter } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Menu />
         </BrowserRouter>
         <LanguageSelector />
+        <Footer />
       </div>
     </Wrapper>
   );
