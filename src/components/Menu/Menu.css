@@ -26,6 +26,14 @@
     margin: 1em 0.8em;
 }
 
+.desktop-menu .logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    height: 4vmin;
+}
+
 .desktop-menu li {
     list-style: none;
     display: inline-block;

@@ -1,5 +1,6 @@
 import './Menu.css';
 import menu from './hamburger.svg';
+import logo from './logo.svg';
 
 import { useState } from "react";
 import {
@@ -83,6 +84,7 @@ function Menu() {
           }
         }}
       >
+        <img src={logo} className="logo" alt="logo" />
         <ListItemLink to="/" primary={t('home')} className={location.pathname === "/" ? "active" : ""} />
         <ListItemLink to="/location" primary={t('location')} className={location.pathname === "/location" ? "active" : ""} />
         <ListItemLink to="/agenda" primary={t('agenda')} className={location.pathname === "/agenda" ? "active" : ""} />
