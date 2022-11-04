@@ -9,11 +9,13 @@
 }
 
 .page-title {
-  font-family: Didot, Didot LT STD, serif;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 41px;
-  margin: 1em 0
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FF5734;
 }
 
 .section-title {
@@ -42,6 +44,6 @@
   }
 
   .page {
-    margin: 5em 1em;
+    margin: 8em 10%;
   }
 }
