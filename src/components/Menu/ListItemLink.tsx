@@ -19,7 +19,7 @@ function ListItemLink(props: ListItemLinkProps) {
 
   return (
     <li>
-      <ListItem button component={Link} to={to} onClick={onClick}>
+      <ListItem button component={Link} to={to} onClick={onClick} style={{ backgroundColor: 'transparent' }} >
         <ListItemText primary={primary} className={className} />
       </ListItem>
     </li>

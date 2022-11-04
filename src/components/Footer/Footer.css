@@ -11,7 +11,7 @@
 
 #footer div {
     font-weight: 400;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 18px;
     color: #11223F;
 }
@@ -19,6 +19,7 @@
 #footer img {
     vertical-align: middle;
     margin-right: 0.5em;
+    width: 16px;
 }
 
 #footer .groom {

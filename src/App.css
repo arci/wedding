@@ -36,7 +36,7 @@
   width: 169px !important;
   height: 44px !important;
   border-radius: 0 !important;
-  margin: 1.5em 0 !important;
+  margin: 0 0 1.5em 0 !important;
 }
 
 @media only screen and (min-width: 900px) {
