@@ -1,13 +1,81 @@
-#location [class*=location],
-#location [class*=get-there] {
+#location .location-name {
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #11223F;
+    margin-top: 0.4em;
+}
+
+#location .location-description {
+    margin: 0.4em 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #11223F;
+}
+
+#location .main-img {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+}
+
+#location .section-title {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #11223F;
+}
+
+#location .section {
+    margin-bottom: 1.5em;
+}
+
+#location .section [class*=location] {
     margin-top: 1.5em;
     line-height: 24px;
 }
 
-#location li {
+#location .section li {
     margin-left: 0.6em;
 }
 
-#location li span {
+#location .section li span {
     margin-left: -0.3em;
+}
+
+
+#location .section {
+    margin-top: 3em;
+}
+
+#location .img-line {
+    display: flex;
+    justify-content: center;
+}
+
+#location .img-line img {
+    width: 60%;
+}
+
+#location .img-line img:nth-child(2) {
+    margin-left: 0.5em;
+}
+
+@media only screen and (min-width: 900px) {
+    #location .section {
+        display: flex;
+        justify-content: left;
+    }
 }
