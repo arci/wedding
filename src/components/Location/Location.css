@@ -43,7 +43,7 @@
 }
 
 #location .section [class*=location] {
-    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     line-height: 24px;
 }
 
@@ -54,7 +54,6 @@
 #location .section li span {
     margin-left: -0.3em;
 }
-
 
 #location .section {
     margin-top: 3em;
@@ -74,8 +73,23 @@
 }
 
 @media only screen and (min-width: 900px) {
+    #location .main-img {
+        all: initial;
+        width: 100%;
+        margin-top: 3em;
+    }
+
     #location .section {
         display: flex;
         justify-content: left;
+    }
+
+    #location .section .section-title {
+        width: 30%;
+        margin: 0 2em 0 2em;
+    }
+
+    #location .section .section-container {
+        width: 70%;
     }
 }
