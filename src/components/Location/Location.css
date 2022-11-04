@@ -62,7 +62,7 @@
 }
 
 #location .img-line img {
-    width: 55%;
+    width: 50%;
 }
 
 #location .img-line img:nth-child(2) {
@@ -89,9 +89,5 @@
 
     #location .section .section-content {
         width: 80%;
-    }
-
-    #location .img-line img {
-        width: 50%;
     }
 }
