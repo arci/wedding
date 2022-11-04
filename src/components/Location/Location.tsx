@@ -18,8 +18,8 @@ function Location() {
 
             <img className="main-img" src={dimora1} />
             <div className="section">
-                <span className="section-title">{t('location-stay')}</span>
-                <div className="sectionContent">
+                <div className="section-title">{t('location-stay')}</div>
+                <div className="section-content">
                     <div className="location-description-1">{t('location-description-1')}</div>
                     <div className="location-description-2">{t('location-description-2')}</div>
                     <div className="location-description-3">{t('location-description-3')}</div>
@@ -40,8 +40,8 @@ function Location() {
                 <img src={dimora3} />
             </div>
             <div className="section">
-                <span className="section-title">{t('location-get-there')}</span>
-                <div className="sectionContent">
+                <div className="section-title">{t('location-get-there')}</div>
+                <div className="section-content">
                     <div className="location-get-there-1">{t('location-get-there-1')}</div>
                     <div className="location-get-there-2">{t('location-get-there-2')}</div>
                     <div className="location-get-there-3">{t('location-get-there-3')}</div>

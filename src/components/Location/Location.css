@@ -29,34 +29,31 @@
     width: 100vw;
 }
 
-#location .section-title {
+#location .section {
+    margin-bottom: 1.5em;
+}
+
+#location .section .section-title {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 28px;
     color: #11223F;
+    margin-bottom: 1em;
 }
 
-#location .section {
-    margin-bottom: 1.5em;
-}
-
-#location .section [class*=location] {
+#location .section .section-content [class*=location] {
     margin-bottom: 1.5em;
     line-height: 24px;
 }
 
-#location .section li {
+#location .section .section-content li {
     margin-left: 0.6em;
 }
 
-#location .section li span {
+#location .section .section-content li span {
     margin-left: -0.3em;
-}
-
-#location .section {
-    margin-top: 3em;
 }
 
 #location .img-line {
@@ -65,7 +62,7 @@
 }
 
 #location .img-line img {
-    width: 60%;
+    width: 55%;
 }
 
 #location .img-line img:nth-child(2) {
@@ -82,14 +79,19 @@
     #location .section {
         display: flex;
         justify-content: left;
+        margin-top: 2em;
     }
 
     #location .section .section-title {
-        width: 30%;
-        margin: 0 2em 0 2em;
+        width: 20%;
+        margin: 0 0.5em 0 2.5em;
     }
 
-    #location .section .section-container {
-        width: 70%;
+    #location .section .section-content {
+        width: 80%;
+    }
+
+    #location .img-line img {
+        width: 50%;
     }
 }
