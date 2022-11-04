@@ -4,8 +4,9 @@
 }
 
 .page {
-  margin: 3em 1em;
-  min-height: calc(100vh - 150px);
+  margin: 3em 1em 0 1em;
+  min-height: calc(100vh - 180px);
+  padding-bottom: 40px;
 }
 
 .page-title {
@@ -40,10 +41,8 @@
 
 @media only screen and (min-width: 900px) {
   .page {
-    min-height: calc(100vh - 250px);
+    margin: 8em 10% 0 10%;
+    min-height: calc(100vh - 230px);
   }
-
-  .page {
-    margin: 8em 10%;
-  }
+  
 }
