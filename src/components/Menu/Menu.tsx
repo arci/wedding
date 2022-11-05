@@ -10,7 +10,6 @@ import {
   Divider,
 } from "@mui/material";
 import {
-  BrowserRouter as Router,
   Route,
   Routes,
   useLocation
