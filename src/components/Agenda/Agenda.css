@@ -7,6 +7,13 @@
     position: relative;
     list-style: none;
     cursor: pointer;
+    width: 8em;
+    text-align: center;
+}
+
+#agenda .react-tabs__tab:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 #agenda .react-tabs__tab-list {
