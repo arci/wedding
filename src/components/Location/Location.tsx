@@ -1,7 +1,6 @@
 import './Location.css';
-import dimora1 from './dimora-1.png';
-import dimora2 from './dimora-2.png';
-import dimora3 from './dimora-3.png';
+import dimora1 from './dimora.jpg';
+import collage from './collage.png';
 
 import { useTranslation } from 'react-i18next';
 import { Button } from '@mui/material';
@@ -35,10 +34,7 @@ function Location() {
                 </div>
             </div>
 
-            <div className="img-line">
-                <img src={dimora2} />
-                <img src={dimora3} />
-            </div>
+            <img className="main-img" src={collage} />
             <div className="section">
                 <div className="section-title">{t('location-get-there')}</div>
                 <div className="section-content">

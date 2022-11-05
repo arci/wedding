@@ -1,6 +1,6 @@
 import "./Map.css"
 import airport from './airport.png';
-import wedding from './wedding.png';
+import location from './location.png';
 
 import { useEffect, useRef, useState } from "react";
 
@@ -34,11 +34,11 @@ function Map(props: MapProps) {
     // markers
     const airportIcon = {
         url: airport,
-        scaledSize: new google.maps.Size(50, 50)
+        scaledSize: new google.maps.Size(40, 50)
     };
     const weddingIcon = {
-        url: wedding,
-        scaledSize: new google.maps.Size(50, 50)
+        url: location,
+        scaledSize: new google.maps.Size(40, 50)
     };
 
     const dimoraDiSpartivento = new google.maps.LatLng(36.8785649, 14.6960739)
