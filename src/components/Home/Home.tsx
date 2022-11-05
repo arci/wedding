@@ -12,7 +12,7 @@ function Home() {
             <div className="who">{t('who')}</div>
             <div className="when">{t('when')}</div>
             <div className="where">{t('where')}</div>
-            <div className="coming-soon">{t('coming-soon')}</div>
+            <div className="next">{t('next')}</div>
         </div>
     )
 }

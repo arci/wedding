@@ -7,7 +7,8 @@
     "who": "fabio - marília",
     "when": "8 and 9 of July 2023",
     "where": "in Ragusa, Sicily",
-    "coming-soon": "Formal invitation and details to follow",
+    "next": "More information to follow",
+    
     
     "location-title": "The location",
     "location-name": "La Dimora di Spartivento",
@@ -37,7 +38,11 @@
     "sunday": "Sunday",
     "faqs-title": "FAQs",
     "rsvp-title": "RSVP",
+    
+    "coming-soon": "Coming soon, stay tuned",
+
     "not-found": "Not sure what's happened",
+
     "footer-design": "Design by the bride",
     "footer-code": "Code by the groom"
 }

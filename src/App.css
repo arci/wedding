@@ -45,3 +45,8 @@
     min-height: calc(100vh - 230px);
   }
 }
+
+.coming-soon {
+  text-align: center;
+  margin-top: 5em;
+}
