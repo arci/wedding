@@ -29,7 +29,7 @@ function RSVP() {
             new formsapp('63642d1ce5740e14f434de70', {
                 width: '100%',
                 height: 'formHeight'
-            })
+            });
         }
     }, [scriptLoaded]);
 
