@@ -1,6 +1,48 @@
 {
-    "location-title": "A localização",
-    "saturday": "Sabado",
+    "home": "Home",
+    "location": "Onde",
+    "agenda": "Agenda",
+    "rsvp": "RSVP",
+    "faqs": "Perguntas Frequentes",
+
+    "who": "fabio - marília",
+    "when": "8 e 9 de julho 2023",
+    "where": "em Ragusa, Sicília",
+    "next": "Em breve mais informações",
+    
+    "location-title": "The location",
+    "location-name": "La Dimora di Spartivento",
+    "location-description": "Uma casa de fazenda do século 19, imersa na paisagem rural siciliana",
+    
+    "location-stay": "Sua estadia",
+    "location-description-1": "La Dimora di Spartivento é um hotel rústico localizado na entrada de Ragusa, no sudeste da Sicília. Sua posição estratégica permite chegar facilmente aos principais centros históricos do Val di Noto e à esplêndida costa de Ragusa.",
+    "location-description-2": "O hotel, uma antiga fazenda de 1800, é composto por 27 quartos em estilo rústico, um grande salão de café da manhã localizado no interior de um antigo estábulo, um terraço e um jardim com piscina panorâmica.",
+    "location-description-3": "Toda a estrutura, incluindo seus 27 quartos, estará exclusivamente à nossa disposição por 2 noites.",
+    "location-description-4": "Convidamos você a passar essas 2 noites conosco e desfrutar da melhor hospitalidade que a Sicília tem a oferecer.",
+    "location-amenities": "O hotel oferece:",
+    "location-amenities-1": "WiFi grátis",
+    "location-amenities-2": "Café da manhã",
+    "location-amenities-3": "uma piscina",
+    "location-amenities-4": "uma área de recreação infantil",
+    "location-amenities-5": "estacionamento grátis",
+    
+    "location-get-there": "Como chegar",
+    "location-get-there-1": "Infelizmente não é possível chegar até o hotel usando transporte público.",
+    "location-get-there-2": "Se você vier de avião, podemos providenciar um transfer do aeroporto de Comiso ou Catania. Se você estiver hospedado em outro lugar próximo, podemos providenciar um transfer de lá para La Dimora di Spartivento e vice-versa. Leia nossas Perguntas Frequentes ou entre em contato conosco para obter mais informações sobre transferências.",
+    "location-get-there-3": "Se preferir alugar um carro, La Dimora di Spartivento fica a 23 minutos de carro do Aeroporto de Comiso e a 1h30 de carro do Aeroporto de Catania.",
+    
+    "location-get-directions": "Obter direções",
+    
+    "agenda-title": "Agenda",
+    "saturday": "Sábado",
     "sunday": "Domingo",
-    "not-found": "Alguma coisa quebrou"
+
+    "faqs-title": "Perguntas Frequentes",
+    "rsvp-title": "RSVP",
+    
+    "coming-soon": "Em breve",
+    "not-found": "Alguma coisa deu errada",
+
+    "footer-design": "Design by the bride",
+    "footer-code": "Code by the groom"
 }

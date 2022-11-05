@@ -1,6 +1,48 @@
 {
+    "home": "Home",
+    "location": "Location",
+    "agenda": "Agenda",
+    "rsvp": "RSVP",
+    "faqs": "FAQs",
+
+    "who": "fabio - marília",
+    "when": "8 e 9 Luglio 2023",
+    "where": "a Ragusa, Sicilia",
+    "next": "Presto maggiori informazioni",
+    
     "location-title": "La location",
+    "location-name": "La Dimora di Spartivento",
+    "location-description": "Un baglio del 19° secolo immerso nella campagna Siciliana",
+    
+    "location-stay": "Il tuo soggiorno",
+    "location-description-1": "La Dimora di Spartivento è un hotel situato alle porte di Ragusa. Si trova in una posizione strategica che permette di raggiungere facilmente i maggiori centri storici della Val di Noto e la splendida costa Ragusana.",
+    "location-description-2": "L'hotel, originariamente una cascina del 1800, consiste in 27 camere dallo stile rustico, un' ampia stanza per la colazione situata all'interno della vecchia stalla, una terrazza e un giardino dove si trova la piscina panoramica con solarium.",
+    "location-description-3": "L'intera struttura, incluse le 27 camere, saranno completamente a nostra disposizione per 2 notti.",
+    "location-description-4": "Vi invitiamo a trascorrere con noi queste due notti e godervi la migliore ospitalità che la campagna Siciliana ha da offrire.",
+    "location-amenities": "La proprietà offre:",
+    "location-amenities-1": "WiFi gratuito",
+    "location-amenities-2": "colazione inclusa",
+    "location-amenities-3": "piscina",
+    "location-amenities-4": "un'area di gioco per i bambini",
+    "location-amenities-5": "parcheggio gratuito",
+    
+    "location-get-there": "Come arrivare",
+    "location-get-there-1": "Purtroppo la proprità non è servita dal trasporto pubblico.",
+    "location-get-there-2": "Se arrivi via aereo, possiamo organizzare una navetta dall'aereoporto di Comiso o Catania. Se soggiorni in un altro posto vicino, possiamo organizzare una navetta da lì fino a La Dimora di Spartivento e vice-versa. Dai un occhio alle FAQ o contattaci per maggiori informazioni.",
+    "location-get-there-3": "Se preferisci noleggiare una macchina, La Dimora di Spartivento si trova a 23 minuti dall'aereoporto di Comiso e 1 ora e mezza dall'aereoporto di Catania.",
+    
+    "location-get-directions": "Vedi sulla mappa",
+    
+    "agenda-title": "Agenda",
     "saturday": "Sabato",
     "sunday": "Domenica",
-    "not-found": "Qualcosa è andato storto"
+
+    "faqs-title": "FAQs",
+    "rsvp-title": "RSVP",
+    
+    "coming-soon": "In arrivo",
+    "not-found": "Qualcosa si è rotto",
+
+    "footer-design": "Design by the bride",
+    "footer-code": "Code by the groom"
 }
