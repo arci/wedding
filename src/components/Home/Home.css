@@ -25,6 +25,10 @@
     margin: 0 3.5em 1em 3.5em;
 }
 
+#home .button-primary {
+    margin-top: 2em !important;
+}
+
 @media only screen and (min-width: 900px) {
     #home .logo {
         margin-top: 4em;

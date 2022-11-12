@@ -2,6 +2,8 @@ import './Home.css';
 import logo from './logo.svg';
 
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import { Button } from '@mui/material';
 
 function Home() {
     const { t } = useTranslation()
@@ -13,6 +15,9 @@ function Home() {
             <div className="when">{t('when')}</div>
             <div className="where">{t('where')}</div>
             <div className="next">{t('next')}</div>
+            <Link to="/rsvp">
+                <Button className="button-primary" variant="outlined">RSVP</Button>
+            </Link>
         </div>
     )
 }
