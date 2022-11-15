@@ -11,7 +11,6 @@ export function AnalyticsWrapper(props: AnalyticsWrapperProps) {
   const location = useLocation();
 
   useEffect(() => {
-    console.log("wrapper, " + props)
     if (props.initialized) {
       ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
       console.log("page view: " + location.pathname + location.search)
