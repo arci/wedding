@@ -6,29 +6,27 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 interface AccordionProps {
-    title: string;
-    content: string;
+    faqKey: string;
     expanded: boolean;
     onChange: (event: React.SyntheticEvent, expanded: boolean) => void;
 
 }
 
 function Accordion(props: AccordionProps) {
-    const { title, content, expanded, onChange } = props;
-
+    const { faqKey, expanded, onChange } = props;
     const { t } = useTranslation()
 
     return (
         <MaterialUIAccordion elevation={0} expanded={expanded} onChange={onChange}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
-                aria-controls={title + "content"}
-                id={title}
+                aria-controls={faqKey + "content"}
+                id={faqKey}
             >
-                {t(title)}
+                {t(faqKey)}
             </AccordionSummary>
             <AccordionDetails>
-                {t(content)}
+                {t(faqKey + "-answer")}
             </AccordionDetails>
         </MaterialUIAccordion>
     )
