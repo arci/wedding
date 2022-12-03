@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 import Accordion from './Accordion';
+import { Link } from 'react-router-dom';
 import { Button } from '@mui/material';
 
 function FAQs() {
@@ -21,7 +22,16 @@ function FAQs() {
             <Accordion
                 id="faqs-1"
                 title={t("faqs-1")}
-                content={<>{t("faqs-1-answer")}</>}
+                content={
+                    <>
+                        {t("faqs-1-answer")}
+                        <p>
+                            <Link to="/rsvp">
+                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                            </Link>
+                        </p>
+                    </>
+                }
                 expanded={expanded}
                 onChange={handleChange} />
             <Accordion
@@ -39,7 +49,16 @@ function FAQs() {
             <Accordion
                 id="faqs-4"
                 title={t("faqs-4")}
-                content={<>{t("faqs-4-answer")}</>}
+                content={
+                    <>
+                        {t("faqs-4-answer")}
+                        <p>
+                            <Link to="/rsvp">
+                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                            </Link>
+                        </p>
+                    </>
+                }
                 expanded={expanded}
                 onChange={handleChange} />
             <Accordion
@@ -68,6 +87,11 @@ function FAQs() {
                     <>
                         <span>{t("faqs-8-answer-a")}</span>
                         <p>{t("faqs-8-answer-b")}</p>
+                        <p>
+                            <Link to="/rsvp">
+                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                            </Link>
+                        </p>
                     </>
                 }
                 expanded={expanded}
@@ -85,6 +109,11 @@ function FAQs() {
                     <>
                         <span>{t("faqs-10-answer-a")}</span>
                         <p>{t("faqs-10-answer-b")}</p>
+                        <p>
+                            <Link to="/rsvp">
+                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                            </Link>
+                        </p>
                     </>
                 }
                 expanded={expanded}
@@ -92,7 +121,16 @@ function FAQs() {
             <Accordion
                 id="faqs-11"
                 title={t("faqs-11")}
-                content={<>{t("faqs-11-answer")}</>}
+                content={
+                    <>
+                        {t("faqs-11-answer")}
+                        <p>
+                            <Link to="/rsvp">
+                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                            </Link>
+                        </p>
+                    </>
+                }
                 expanded={expanded}
                 onChange={handleChange} />
             <Accordion
@@ -109,6 +147,11 @@ function FAQs() {
                     <>
                         <span>{t("faqs-13-answer-a")}</span>
                         <p>{t("faqs-13-answer-b")}</p>
+                        <p>
+                            <Link to="/rsvp">
+                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                            </Link>
+                        </p>
                     </>
                 }
                 expanded={expanded}
