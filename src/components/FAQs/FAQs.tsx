@@ -1,9 +1,9 @@
 import './FAQs.css';
 
 import { useTranslation } from 'react-i18next';
-import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
+
+import Accordion from './Accordion';
 
 function FAQs() {
     const { t } = useTranslation()
@@ -18,60 +18,27 @@ function FAQs() {
         <div id="faqs" className="page">
             <div className="page-title">{t('faqs-title')}</div>
             <div className="section-title">The Wedding</div>
-            <Accordion elevation={0} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1"
-                >
-                    Accordion 1
-                </AccordionSummary>
-                <AccordionDetails>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                </AccordionDetails>
-            </Accordion>
-            <Accordion elevation={0} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel2"
-                >
-                    Accordion 1
-                </AccordionSummary>
-                <AccordionDetails>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                </AccordionDetails>
-            </Accordion>
-            
+            <Accordion
+                title="test1"
+                content="test content"
+                expanded={expanded === 'panel1'}
+                onChange={handleChange('panel1')} />
+            <Accordion
+                title="test2"
+                content="test content"
+                expanded={expanded === 'panel2'}
+                onChange={handleChange('panel2')} />
             <div className="section-title">Getting There</div>
-            <Accordion elevation={0} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel3"
-                >
-                    Accordion 1
-                </AccordionSummary>
-                <AccordionDetails>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                </AccordionDetails>
-            </Accordion>
-            <Accordion elevation={0} expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel4"
-                >
-                    Accordion 1
-                </AccordionSummary>
-                <AccordionDetails>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                </AccordionDetails>
-            </Accordion>
+            <Accordion
+                title="test3"
+                content="test content"
+                expanded={expanded === 'panel3'}
+                onChange={handleChange('panel3')} />
+            <Accordion
+                title="test4"
+                content="test content"
+                expanded={expanded === 'panel4'}
+                onChange={handleChange('panel4')} />
         </div>
     )
 }
