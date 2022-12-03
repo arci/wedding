@@ -65,7 +65,7 @@
     "faqs-suitcase-title": "Your suitcase",
 
     "faqs-1": "Will you accommodate my dietary restrictions?",
-    "faqs-1-answer": "Yes, of course! Just let us know in the RSVP form or write directly to one of us",
+    "faqs-1-answer": "Yes, of course! Just let us know in the RSVP form or write directly to one of us.",
 
     "faqs-2": "Can I bring a guest?",
     "faqs-2-answer": "Unfortunately, due to budget and space limitations, we simply can't afford for all of our lovely guests to bring a guest of their own. Please contact us before inviting someone that we have not directly invited.",
@@ -76,38 +76,41 @@
     "faqs-4": "I am not staying at the hotel. Can I attend the Sunday brunch?",
     "faqs-4-answer": "Yes, you can! Just let us know beforehand so we can inform the catering.",
     
-    "faqs-5":  "Are children welcome?",
-    "faqs-5-answer": "Yes, they are! Be mindful that don't have a special menu for children.",
+    "faqs-5": "Are children welcome?",
+    "faqs-5-answer": "Yes, they are! Be mindful that we don't have a special menu for children.",
     
     "faqs-6": "What should I gift you?",
-    "faqs-6-answer": "Your presence is a gift! If you insist on gifting us something, please contribute to our New Home fund",
+    "faqs-6-answer": "Your presence is a gift! If you insist on gifting us something, please contribute to our New Home fund.",
     
     "faqs-7": "Which is the nearest airport?",
-    "faqs-7-answer":"The nearest airport is Comiso, but it only has domestic flights. For international flies, the closest one is in Catania.",
+    "faqs-7-answer": "The nearest airport is Comiso, but it only has domestic flights. For international flies, the closest one is in Catania.",
 
     "faqs-8": "When should I arrive and how long should I stay?",
-    "faqs-8-answer": "The reception is on the 8th. Check-in starts at 14h, but you are welcome to arrive before and enjoy the facilities whilst your room is prepared. Check-out is on Monday, at 10 am.",
+    "faqs-8-answer-a": "The reception is on the 8th. Check-in starts at 14h, but you are welcome to arrive before and enjoy the facilities whilst your room is prepared. Check-out is on Monday, at 10 am.",
+    "faqs-8-answer-b": "You can also check out on Sunday if you prefer, let us know beforehand so we can plan the rooms accordingly.",
 
     "faqs-9": "Is there free parking?",
     "faqs-9-answer": "Yes!",
 
     "faqs-10": "How can I get from the airport to the location?",
-    "faqs-10-answer": "Unfortunately, the location is not served by public transport. You can either rent a car, take a bus to the center of Ragusa and, from there, a taxi or arrange a private transfer with one of our partners. If you need help getting from/to the airport or the city center, let us know and we can arrange a transfer.",
+    "faqs-10-answer-a": "Unfortunately, the location is not served by public transport. You can either rent a car, take a bus to the center of Ragusa and, from there, a taxi or arrange a private transfer with one of our partners.",
+    "faqs-10-answer-b": "If you need help getting from/to the airport or the city center, let us know and we can arrange a transfer.",
 
     "faqs-11": "How can I get from my hotel to the location?",
     "faqs-11-answer": "If you need help getting from/to a hotel, let us know and we can arrange a transfer.",
 
     "faqs-12": "Should I rent a car?",
-    "faqs-12-answer": "That's up to you. There are no Ubers in Sicily and the location is not served by public transport. You might feel freer with a car of your own. If the cost is high you can split it with other guests.",
+    "faqs-12-answer": "That's up to you. There are no Uber in Sicily and the location is not served by public transport. You might feel freer with a car of your own. If the cost is high you can split it with other guests.",
 
     "faqs-13": "Are the rooms included? Can I sleep in one?",
-    "faqs-13-answer": "Yes, but there's limited availability and not everyone will be able to stay on the location. We will provide the name of nearby structures with discounted prices for those that cannot stay with us. We will contact you regarding your stay once we have received most of the RSVPs.",
+    "faqs-13-answer-a": "Yes, but there's limited availability and not everyone will be able to stay on the location. We will provide the name of nearby structures with discounted prices for those that cannot stay with us.",
+    "faqs-13-answer-b": "We will contact you regarding your stay once we have received most of the RSVPs.",
 
-    "faqs-14":  "Is breakfast included?",
+    "faqs-14": "Is breakfast included?",
     "faqs-14-answer": "Yes!",
 
     "faqs-15": "Can I stay another day (or more)?",
-    "faqs-15-answer": "That's up to you. Contact the structure directly.",
+    "faqs-15-answer": "That's up to you. Contact the structure directly to check the availability.",
 
     "faqs-16": "I have to work on Monday! Where can I go?",
     "faqs-16-answer": "Gli Aromi has a nice co-working cafe.",

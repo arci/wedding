@@ -64,7 +64,12 @@ function FAQs() {
             <Accordion
                 id="faqs-8"
                 title={t("faqs-8")}
-                content={<>{t("faqs-8-answer")}</>}
+                content={
+                    <>
+                        <span>{t("faqs-8-answer-a")}</span>
+                        <p>{t("faqs-8-answer-b")}</p>
+                    </>
+                }
                 expanded={expanded}
                 onChange={handleChange} />
             <Accordion
@@ -76,7 +81,12 @@ function FAQs() {
             <Accordion
                 id="faqs-10"
                 title={t("faqs-10")}
-                content={<>{t("faqs-10-answer")}</>}
+                content={
+                    <>
+                        <span>{t("faqs-10-answer-a")}</span>
+                        <p>{t("faqs-10-answer-b")}</p>
+                    </>
+                }
                 expanded={expanded}
                 onChange={handleChange} />
             <Accordion
@@ -95,7 +105,12 @@ function FAQs() {
             <Accordion
                 id="faqs-13"
                 title={t("faqs-13")}
-                content={<>{t("faqs-13-answer")}</>}
+                content={
+                    <>
+                        <span>{t("faqs-13-answer-a")}</span>
+                        <p>{t("faqs-13-answer-b")}</p>
+                    </>
+                }
                 expanded={expanded}
                 onChange={handleChange} />
             <Accordion

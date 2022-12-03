@@ -58,6 +58,78 @@
     "sunday-2-body": "L'agenda ufficiale termina qui! Una Domenica all'insegna del relax sotto al sole. Goditi la piscina della strututra o recati alla spiaggia più vicina.",
 
     "faqs-title": "FAQs",
+
+    "faqs-wedding-title": "Il Matrimonio",
+    "faqs-getting-there-title": "Come arrivare",
+    "faqs-staying-title": "Il soggiorno",
+    "faqs-suitcase-title": "La valigia",
+
+    "faqs-1": "Terrete in considerazione le mie restrizioni alimentari?",
+    "faqs-1-answer": "Certo! Faccelo sapere rispondendo alla RSVP o scrivi direttamente a uno di noi.",
+
+    "faqs-2": "Posso portare un ospite?",
+    "faqs-2-answer": "Sfortunatamente, a causa del budget e spazio, non possiamo permetterci che tutti i nostri ospiti portino una persona in più. Contattaci prima di invitare qualcuno che non abbiamo invitato direttamente.",
+    
+    "faqs-3": "Servireta alcohol durante la fetsa?",
+    "faqs-3-answer": "Certo! ma i saranno anche opzioni non alcoliche.",
+    
+    "faqs-4": "Non starò all'hotel. Posso partecipare al brunch la Domenica?",
+    "faqs-4-answer": "Certamente! Faccelo sapere in anticipo in modo che possiamo informare il catering.",
+    
+    "faqs-5": "I bambini sono benvenuti?",
+    "faqs-5-answer": "Si! Considera però che non abbiamo un menù dedicato per i bambini.",
+    
+    "faqs-6": "Cosa posso regalarvi?",
+    "faqs-6-answer": "La tua presenza è già un regalo per noi! Ma se insisti nel volerci regalare qualcosa puoi contribuire .... TODO",
+    
+    "faqs-7": "Qual'è l'aereoporto più vicino?",
+    "faqs-7-answer": "L'aereoporto più vicino è Comiso ma solo per voli interni. Per voli internazionali, l'aereoporto più vicino è Catania.",
+
+    "faqs-8": "Quando devo arrivare e quanto tempo dovrò stare?",
+    "faqs-8-answer-a": "L'arrivo è l'8 Luglio. Il check-in inizia alle 14, ma sei libero di arrivare prima e goderti la location mentre la tua camera viene preparata. Il check-out è Lunedì 10 Luglio entro le ore 10.",
+    "faqs-8-answer-b": "Se preferisci, puoi effettuare il check-out la Domenica, facci sapere in anticipo così possiamo organizzare le camere.",
+
+    "faqs-9": "C'è parcheggio gratuito?",
+    "faqs-9-answer": "Si!",
+
+    "faqs-10": "Come posso arrivare dall'aereoporto alla location?",
+    "faqs-10-answer-a": "Purtroppo la location non è servita dal trasposrto pubblico. Puoi noleggiare una macchina, prendere un pullman fino a Ragusa centro e da li un taxi, oppure puoi organizzare un transfer.",
+    "faqs-10-answer-b": "Se hai bisogno di aiuto per sposrtarti da e per l'aereoporto o dal centro città, facci sapere e possiamo aiutarti ad organizzare un trasfer.",
+    
+    "faqs-11": "Come posso arrivare dal mio hotel alla location?",
+    "faqs-11-answer": "Se hai bisogno di aiuto per sposrtarti dal tuo hotel alla location e viceversa, facci sapere e possiamo aiutarti ad organizzare un trasfer.",
+
+    "faqs-12": "Devo noleggiare una macchina?",
+    "faqs-12-answer": "Sta a te. Non ci sono Uber in Sicilia e la location non è servita dal trasporto pubblico. Ti sentirai più libero con una macchina. Se il costo è elevato puoi organizzarti per dividerlo con altri ospiti.",
+
+    "faqs-13": "Le camere sono incluse? posso dormire li?",
+    "faqs-13-answer-a": "Si, ma la disponibilità è limitata quindi non a tutti sarà possibile stare nelle camere a disposizione nella location. Per coloro che non potranno soggiornare con noi alla location, forniremo il nome di strutture nella zona con cui cercheremo di avere un prezzo scontato.",
+    "faqs-13-answer-b": "Ti contatteremo relativamente alle camere appena avremmo ricevuto la maggior parte delle RSVP.",
+
+    "faqs-14": "La colazione è inclusa?",
+    "faqs-14-answer": "Si!",
+
+    "faqs-15": "Posso stare qualche giorno in più?",
+    "faqs-15-answer": "Dipende a te, contatta direttamente la struttura per verificare la disponibilità.",
+
+    "faqs-16": "Devo lavorare Lunedì! Dove posso andare?",
+    "faqs-16-answer": "Gli Aromi ha un co-working cafe molto carino.",
+    "faqs-16-link": "Dai un'occhiata!",
+    "faqs-16-link-href": "https://www.gliaromi.it/amandulahub/",
+
+    "faqs-17": "Qual'è il dress coed per la cena?",
+    "faqs-17-answer-a": "Summer Casual Chic.",
+    "faqs-17-answer-b": "E'un matrimonio estivo, non ci aspettiamo nulla di stravagante e oltre le righe. Vogliamo che ti senta come il tuo io migliore ma comunque a tuo agio.",
+    "faqs-17-answer-c": "Per le ragazze, un vestito corto o da cocktail è perfetto. Considera che La Dimora di Spartivento ha un pavimento rustico di roccie quindi meglio evitare tacchi super alti.",
+    "faqs-17-answer-d": "Per i ragazzi, pantaloni di chino o pantaloni con una camicia. Se vuoi indossare un completo, assicurati che sia di lino o di un materiale leggero o ti scioglierai sotto il sole Siciliano.",
+
+    "faqs-18": "Quale dovrebbe essere il tempo in quel periodo dell'anno?",
+    "faqs-18-answer-a": "Le giornate di solito sono calde con serate temperate, portati vestiti leggeri. In media la temperatura massima si aggira intorno ai 30˚C e la minima sui 20˚C. Portati la crema solare!",
+    "faqs-18-answer-b": "C'è una probabilità del 95% di un perfetto giorno di sole e un 5% di probabilità di vedere qualche nuvola.",
+
+    "faqs-19": "Cosa devo portarmi per il viaggio?",
+    "faqs-19-answer": "Costiume da bagno, crema solare, vestiti leggeri estivi, un cappello per proteggerti dal sole, ciabatte etc… Fai la valigia come se stessi andando in vacanza al mare e sarai a posto.",
+
     "rsvp-title": "RSVP",
     
     "coming-soon": "In arrivo",
