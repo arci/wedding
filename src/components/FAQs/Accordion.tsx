@@ -1,31 +1,30 @@
 import './FAQs.css';
 
-import { useTranslation } from 'react-i18next';
 import { Accordion as MaterialUIAccordion, AccordionDetails, AccordionSummary } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 interface AccordionProps {
-    faqKey: string;
+    id: string;
+    title: string;
+    content: JSX.Element,
     expanded: string | false;
     onChange: (panelId: string) => (event: React.SyntheticEvent, isExpanded: boolean) => void
 }
 
 function Accordion(props: AccordionProps) {
-    const { faqKey, expanded, onChange } = props;
-
-    const { t } = useTranslation()
+    const { id: key, title, content: children, expanded, onChange } = props;
 
     return (
-        <MaterialUIAccordion elevation={0} expanded={expanded === faqKey} onChange={onChange(faqKey)}>
+        <MaterialUIAccordion elevation={0} expanded={expanded === key} onChange={onChange(key)}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
-                aria-controls={faqKey + "content"}
-                id={faqKey}
+                aria-controls={key + "content"}
+                id={key}
             >
-                {t(faqKey)}
+                {title}
             </AccordionSummary>
             <AccordionDetails>
-                {t(faqKey + "-answer")}
+                {children}
             </AccordionDetails>
         </MaterialUIAccordion>
     )

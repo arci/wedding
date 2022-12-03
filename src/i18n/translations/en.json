@@ -110,13 +110,19 @@
     "faqs-15-answer": "That's up to you. Contact the structure directly.",
 
     "faqs-16": "I have to work on Monday! Where can I go?",
-    "faqs-16-answer": "Gli Aromi has a nice co-working cafe! Check it out https://www.gliaromi.it/amandulahub/",
+    "faqs-16-answer": "Gli Aromi has a nice co-working cafe.",
+    "faqs-16-link": "Check it out!",
+    "faqs-16-link-href": "https://www.gliaromi.it/amandulahub/",
 
     "faqs-17": "What is the dress code for the dinner party?",
-    "faqs-17-answer": "",
+    "faqs-17-answer-a": "Summer Casual Chic.",
+    "faqs-17-answer-b": "It is a summer wedding, we don't expect anything fancy and over the top. We want you to look and feel like your best self, but still, be comfortable.",
+    "faqs-17-answer-c": "For the ladies, short or midi cocktail dresses are perfectly fine. Consider that La Dimora has rustic stone floors, so perhaps avoid super high heels.",
+    "faqs-17-answer-d": "For the lads, think neat chinos, tailored shorts, or trousers with a shirt. If you want to wear a suit, make sure it is made of linen or lightweight fabric - otherwise, you'll melt under the Sicilian heat.",
 
     "faqs-18": "What will the weather be like at that time of year?",
-    "faqs-18-answer": "",
+    "faqs-18-answer-a": "Days are usually hot with mild evenings, so you should pack light and cool clothing. The average daily maximum is 30˚C and the average daily minimum is 20˚C. Bring sunscreen!",
+    "faqs-18-answer-b": "There is a 95% chance of a perfect sunny day and a 5% chance of seeing some clouds.",
 
     "faqs-19": "What should I bring to the trip?",
     "faqs-19-answer": "Swimsuits, sunscreen, light summer clothing, a hat to protect you from the sun, flip flops, etc… Just pack for a summer vacation and you'll be fine.",
