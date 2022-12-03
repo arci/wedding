@@ -6,7 +6,7 @@
     background-color: #f7f7f7;
 }
 
-.MuiPaper-root {
+.MuiPaper-root.MuiAccordion-root {
     margin-top: 0 !important;
     border: none !important;
     background-color: #FBF9F7 !important;
