@@ -2,16 +2,18 @@ import { ReactNode } from "react";
 
 interface SectionProps {
     name: string,
+    title: string,
     children: ReactNode
 }
 function Section(props: SectionProps) {
-    const { name, children } = props;
+    const { name, title, children } = props;
 
     return (
         <>
             <div className='section'>
-                <div className='name'>{name}</div>
+                <div className='image'><img src={require("./" + name + ".png")} /></div>
                 <div className='content'>
+                    <p className='title'>{title}</p>
                     {children}
                 </div>
             </div>

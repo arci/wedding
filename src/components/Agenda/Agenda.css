@@ -18,6 +18,7 @@
 
 #agenda .react-tabs__tab-list {
     border: none;
+    margin: 3em 0;
 }
 
 #agenda .react-tabs__tab {
@@ -40,11 +41,10 @@
 
 #agenda .day-plan .section {
     display: flex;
-    border-bottom: 1px solid #FF5734;
     margin-bottom: 1em;
 }
 
-#agenda .day-plan .section .name {
+#agenda .day-plan .section .image {
     font-weight: 700;
     font-size: 10px;
     line-height: 24px;
@@ -53,6 +53,22 @@
     padding-right: 4em;
     min-width: 40px;
     max-width: 80px;
+}
+
+#agenda .day-plan .section .image img {
+    width: 50px;
+}
+
+#agenda .day-plan .section .content .title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+#agenda .day-plan .section .content {
+    border-bottom: 1px solid #FF5734;
+    margin: 0 0 2em 0;
 }
 
 #agenda .day-plan .section .content p {
