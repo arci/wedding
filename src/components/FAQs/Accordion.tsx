@@ -4,20 +4,19 @@ import { useTranslation } from 'react-i18next';
 import { Accordion as MaterialUIAccordion, AccordionDetails, AccordionSummary } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-
 interface AccordionProps {
     faqKey: string;
-    expanded: boolean;
-    onChange: (event: React.SyntheticEvent, expanded: boolean) => void;
-
+    expanded: string | false;
+    onChange: (panelId: string) => (event: React.SyntheticEvent, isExpanded: boolean) => void
 }
 
 function Accordion(props: AccordionProps) {
     const { faqKey, expanded, onChange } = props;
+
     const { t } = useTranslation()
 
     return (
-        <MaterialUIAccordion elevation={0} expanded={expanded} onChange={onChange}>
+        <MaterialUIAccordion elevation={0} expanded={expanded === faqKey} onChange={onChange(faqKey)}>
             <AccordionSummary
                 expandIcon={<ExpandMoreIcon />}
                 aria-controls={faqKey + "content"}
