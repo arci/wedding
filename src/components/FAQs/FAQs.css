@@ -12,6 +12,18 @@
     background-color: #FBF9F7 !important;
     padding-bottom: 0.6em;
     border-radius: 0px !important;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.MuiAccordionDetails-root {
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .MuiAccordionSummary-root {
