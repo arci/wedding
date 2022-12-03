@@ -12,7 +12,7 @@ function Agenda() {
         <div id="agenda" className="page">
             <div className="page-title">{t('agenda-title')}</div>
             <p className='coming-soon'>{t('coming-soon')}</p>
-            {/* <Tabs>
+            <Tabs>
                 <TabList>
                     <Tab>{t('saturday')}</Tab>
                     <Tab>{t('sunday')}</Tab>
@@ -27,7 +27,7 @@ function Agenda() {
                         <SundayPlan />
                     </div>
                 </TabPanel>
-            </Tabs> */}
+            </Tabs>
         </div>
     )
 }
