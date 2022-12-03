@@ -1,0 +1,27 @@
+#faqs .section-title {
+    margin-bottom: 0.5em;
+}
+
+.MuiPaper-root.MuiAccordion-root::before {
+    background-color: #f7f7f7;
+}
+
+.MuiPaper-root {
+    margin-top: 0 !important;
+    border: none !important;
+    background-color: #FBF9F7 !important;
+    padding-bottom: 0.6em;
+    border-radius: 0px !important;
+}
+
+.MuiAccordionSummary-root {
+    border-bottom: 1px solid #ff5734 !important;
+}
+
+.Mui-expanded {
+    border-bottom: none !important;
+}
+
+.MuiPaper-root.Mui-expanded {
+    border-bottom: 1px solid #ff5734 !important;
+}
