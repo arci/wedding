@@ -1,5 +1,5 @@
 import './Location.css';
-import dimora1 from './dimora.jpg';
+import dimora from './dimora.jpg';
 import collage from './collage.jpg';
 
 import { useTranslation } from 'react-i18next';
@@ -15,7 +15,7 @@ function Location() {
             <div className="location-name">{t('location-name')}</div>
             <div className="location-description">{t('location-description')}</div>
 
-            <img className="main-img" src={dimora1} />
+            <img className="main-img" src={dimora} alt="La Dimora Di Spartivento"/>
             <div className="section">
                 <div className="section-title">{t('location-stay')}</div>
                 <div className="section-content">
@@ -34,7 +34,7 @@ function Location() {
                 </div>
             </div>
 
-            <img className="main-img" src={collage} />
+            <img className="main-img" src={collage} alt="La Dimora Di Spartivento"/>
             <div className="section">
                 <div className="section-title">{t('location-get-there')}</div>
                 <div className="section-content">
