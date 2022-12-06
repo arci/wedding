@@ -11,7 +11,7 @@ function Section(props: SectionProps) {
     return (
         <>
             <div className='section'>
-                <div className='image'><img src={require("./" + name + ".png")} /></div>
+                <div className='image'><img src={require("./" + name + ".png")} alt={name} /></div>
                 <div className='content'>
                     <p className='title'>{title}</p>
                     {children}
