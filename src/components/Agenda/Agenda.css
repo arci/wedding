@@ -69,6 +69,7 @@
 #agenda .day-plan .section .content {
     border-bottom: 1px solid #FF5734;
     margin: 0 0 2em 0;
+    width: 100%;
 }
 
 #agenda .day-plan .section .content p {
