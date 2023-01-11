@@ -62,73 +62,73 @@
     "faqs-wedding-title": "O Casamento",
     "faqs-getting-there-title": "Como chegar",
     "faqs-staying-title": "Sua estadia",
-    "faqs-suitcase-title": "A sua mala",
+    "faqs-suitcase-title": "O que levar na mala",
 
-    "faqs-1": "",
-    "faqs-1-answer": "",
+    "faqs-1": "Tenho restrições alimentares, o cardádio vai levar isso em consideração?",
+    "faqs-1-answer": "Sim, claro! Basta nos informar no formulário RSVP ou escrever diretamente para um de nós",
 
-    "faqs-2": "",
-    "faqs-2-answer": "",
-    
-    "faqs-3": "",
-    "faqs-3-answer": "",
-    
-    "faqs-4": "",
-    "faqs-4-answer": "",
-    
-    "faqs-5": "",
-    "faqs-5-answer": "",
-    
-    "faqs-6": "",
-    "faqs-6-answer": "",
-    
-    "faqs-7": "",
-    "faqs-7-answer": "",
+    "faqs-2": "Posso trazer um convidado?",
+    "faqs-2-answer": "Infelizmente, devido a limitações de orçamento e espaço, simplesmente não podemos permitir que todos tragam um convidado. Entre em contato conosco antes de chamar alguém que não convidamos diretamente .",
 
-    "faqs-8": "",
-    "faqs-8-answer-a": "",
-    "faqs-8-answer-b": "",
+    "faqs-3": "Vai ter bebida alcoólica na recepção?",
+    "faqs-3-answer": "Sim, claro! Teremos também bebidas não alcoólicas.",
 
-    "faqs-9": "",
-    "faqs-9-answer": "",
+    "faqs-4": "Não estou hospedado no hotel. Posso ir ao brunch de domingo?",
+    "faqs-4-answer": "Sim, pode! Basta nos avisar com antecedência para que possamos informar o buffet.",
 
-    "faqs-10": "",
-    "faqs-10-answer-a": "",
-    "faqs-10-answer-b": "",
+    "faqs-5": "Crianças são bem vindas?",
+    "faqs-5-answer": "Sim, são! Esteja ciente de que não há um menu especial para crianças.",
 
-    "faqs-11": "",
-    "faqs-11-answer": "",
+    "faqs-6": "O que posso dar de presente?",
+    "faqs-6-answer": "Sua presença é um presente! Se mesmo assim quiser nos presentear com algo, por favor, contribua para a nossa Lua de Mel.",
 
-    "faqs-12": "",
-    "faqs-12-answer": "",
+    "faqs-7": "Qual é o aeroporto mais próximo?",
+    "faqs-7-answer": "O aeroporto mais próximo é Comiso, mas só tem voos domésticos. Para voos internacionais, o mais próximo é em Catania.",
 
-    "faqs-13": "",
-    "faqs-13-answer-a": "",
-    "faqs-13-answer-b": "",
+    "faqs-8": "Quando devo chegar e quanto tempo devo ficar?",
+    "faqs-8-answer-a": "A festa é no dia 8 de tarde. Para quem ficar hospedado no hotel, o check-in começa às 14h. Você pode chegar antes e aproveitar as instalações enquanto seu quarto é preparado. O check-out é na segunda-feira, às 10h.",
+    "faqs-8-answer-b": "Você também pode fazer o check-out do quarto no domingo se assim preferir, basta que nos avise com antecedência para que isso seja levado em consideração durante a distribuição dos quartos.",
 
-    "faqs-14": "",
-    "faqs-14-answer": "",
+    "faqs-9": "Tem estacionamento gratuito?",
+    "faqs-9-answer": "Sim!",
 
-    "faqs-15": "",
-    "faqs-15-answer": "",
+    "faqs-10": "Como posso ir do aeroporto até o local do casamento?",
+    "faqs-10-answer-a": "Infelizmente, o hotel não é servido por transporte público. Você pode alugar um carro, pegar um ônibus até o centro de Ragusa e, de lá, um táxi ou providenciar um transfer privado com um dos nossos parceiros.",
+    "faqs-10-answer-b": "Se precisar de ajuda para chegar do/para o aeroporto ou centro da cidade, avise-nos e podemos providenciar uma transferência.",
 
-    "faqs-16": "",
-    "faqs-16-answer": "",
-    "faqs-16-link": "",
-    "faqs-16-link-href": "",
+    "faqs-11": "Como posso ir do meu hotel até a festa?",
+    "faqs-11-answer": "Se precisar de ajuda para ir de/para outro hotel, avise-nos e podemos providenciar uma transferência.",
 
-    "faqs-17": "",
-    "faqs-17-answer-a": "",
-    "faqs-17-answer-b": "",
-    "faqs-17-answer-c": "",
-    "faqs-17-answer-d": "",
+    "faqs-12": "Devo alugar um carro?",
+    "faqs-12-answer": "Isso é com você. Não há Ubers na Sicília e o local do casamento não é servido por transporte público. Talvez você se sinta mais livre com um carro próprio. Se o custo for alto, você pode dividi-lo com outros hóspedes.",
 
-    "faqs-18": "",
-    "faqs-18-answer-a": "",
-    "faqs-18-answer-b": "",
+    "faqs-13": "Os quartos estão incluídos? Posso dormir num?",
+    "faqs-13-answer-a": "Sim, mas a disponibilidade é limitada e nem todos poderão ficar hospedados no local da festa. Forneceremos o nome de estruturas próximas com preços com desconto para aqueles que não puderem ficar conosco.",
+    "faqs-13-answer-b": "Entraremos em contato em relação à sua estadia, assim que recebermos a maioria dos RSVPs.",
 
-    "faqs-19": "",
-    "faqs-19-answer": "",
+    "faqs-14": "Café da manhã incluso?",
+    "faqs-14-answer": "Sim!",
+
+    "faqs-15": "Posso ficar mais um dia (ou mais)?",
+    "faqs-15-answer": "Isso é com você. Entre em contato com a estrutura diretamente.",
+
+    "faqs-16": "Eu tenho que trabalhar na segunda-feira! Onde posso ir?",
+    "faqs-16-answer": "Gli Aromi tem um bom café com co-working.",
+    "faqs-16-link": "Confira!",
+    "faqs-16-link-href": "https://www.gliaromi.it/amandulahub/",
+
+    "faqs-17": "Qual é o dress code para o casamento?",
+    "faqs-17-answer-a": "Summer Casual Chic.",
+    "faqs-17-answer-b": "É um casamento de verão, não esperamos nada extravagante e exagerado. Queremos que você pareça e se sinta no seu melhor momento, mas ainda assim, esteja confortável.",
+    "faqs-17-answer-c": "Para as senhoras, vestidos de festa curtos ou midi vão perfeitamente bem. Considere que La Dimora di Spartivento tem pisos de pedra rústica, então talvez evite saltos super altos.",
+    "faqs-17-answer-d": "Para os rapazes, pense em calças com camisa. Se você quiser usar um terno, certifique-se de que seja feito de linho ou tecido leve - caso contrário, você vai derreter sob o calor siciliano.",
+
+    "faqs-18": "Como estará o tempo nessa época do ano?",
+    "faqs-18-answer-a": "Os dias costumam ser quentes com noites amenas, então leve roupas leves e frescas. A média diária máxima é de 30˚C e a mínima é de 20˚C. Traga protetor solar!" ,
+    "faqs-18-answer-b": "Há 95% de chance de um dia ensolarado perfeito e 5% de chance de ver algumas nuvens.",
+
+    "faqs-19": "O que devo levar para a viagem?",
+    "faqs-19-answer": "Roupas de banho, protetor solar, roupas leves de verão, chapéu para se proteger do sol, chinelos, etc… Basta fazer as malas para as férias de verão e você ficará bem.",
 
     "rsvp-title": "RSVP",
     
