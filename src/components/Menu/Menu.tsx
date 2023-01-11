@@ -20,6 +20,7 @@ import Location from "../Location/Location";
 import Agenda from "../Agenda/Agenda";
 import RSVP from "../RSVP/RSVP";
 import FAQs from "../FAQs/FAQs";
+import Honeymoon from "../Honeymoon/Honeymoon";
 import NotFound from "../NotFound/NotFound";
 import ListItemLink from "./ListItemLink";
 
@@ -69,6 +70,8 @@ function Menu() {
             <Divider sx={{ mb: 2 }} />
             <ListItemLink to="/faqs" primary={t('faqs')} onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
+            <ListItemLink to="/honeymoon" primary={t('honeymoon')} onClick={() => toggleDrawer(false)} />
+            <Divider sx={{ mb: 2 }} />
           </Box>
         </SwipeableDrawer>
       </Box>
@@ -89,6 +92,7 @@ function Menu() {
         <ListItemLink to="/agenda" primary={t('agenda')} className={location.pathname === "/agenda" ? "active" : ""} />
         <ListItemLink to="/rsvp" primary={t('rsvp')} className={location.pathname === "/rsvp" ? "active" : ""} />
         <ListItemLink to="/faqs" primary={t('faqs')} className={location.pathname === "/faqs" ? "active" : ""} />
+        <ListItemLink to="/honeymoon" primary={t('honeymoon')} className={location.pathname === "/honeymoon" ? "active" : ""} />
       </Box>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -96,6 +100,7 @@ function Menu() {
         <Route path="agenda" element={<Agenda />} />
         <Route path="rsvp" element={<RSVP />} />
         <Route path="faqs" element={<FAQs />} />
+        <Route path="honeymoon" element={<Honeymoon />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
