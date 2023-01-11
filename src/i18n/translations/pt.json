@@ -4,7 +4,7 @@
     "agenda": "Agenda",
     "rsvp": "RSVP",
     "faqs": "Perguntas Frequentes",
-    "honeymoon": "Lua de mel",
+    "gift": "Presentes",
 
     "who": "fabio - marília",
     "when": "8 e 9 de julho 2023",
@@ -133,7 +133,7 @@
 
     "rsvp-title": "RSVP",
     
-    "honeymoon-title": "Lua de mel",
+    "gift-title": "Presentes",
 
     "coming-soon": "Em breve",
     "not-found": "Alguma coisa deu errada",

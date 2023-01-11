@@ -73,8 +73,8 @@ function FAQs() {
                 content={<>
                     {t("faqs-6-answer")}
                     <p>
-                        <Link to="/honeymoon">
-                            <Button className="button-primary" variant="outlined">{t('honeymoon')}</Button>
+                        <Link to="/gift">
+                            <Button className="button-primary" variant="outlined">{t('gift')}</Button>
                         </Link>
                     </p>
                 </>}
