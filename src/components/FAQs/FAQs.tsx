@@ -27,7 +27,7 @@ function FAQs() {
                         {t("faqs-1-answer")}
                         <p>
                             <Link to="/rsvp">
-                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                                <Button className="button-primary" variant="outlined">{t('rsvp')}</Button>
                             </Link>
                         </p>
                     </>
@@ -54,7 +54,7 @@ function FAQs() {
                         {t("faqs-4-answer")}
                         <p>
                             <Link to="/rsvp">
-                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                                <Button className="button-primary" variant="outlined">{t('rsvp')}</Button>
                             </Link>
                         </p>
                     </>
@@ -70,7 +70,14 @@ function FAQs() {
             <Accordion
                 id="faqs-6"
                 title={t("faqs-6")}
-                content={<>{t("faqs-6-answer")}</>}
+                content={<>
+                    {t("faqs-6-answer")}
+                    <p>
+                        <Link to="/honeymoon">
+                            <Button className="button-primary" variant="outlined">{t('honeymoon')}</Button>
+                        </Link>
+                    </p>
+                </>}
                 expanded={expanded}
                 onChange={handleChange} />
             <div className="section-title">{t('faqs-getting-there-title')}</div>
@@ -89,7 +96,7 @@ function FAQs() {
                         <p>{t("faqs-8-answer-b")}</p>
                         <p>
                             <Link to="/rsvp">
-                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                                <Button className="button-primary" variant="outlined">{t('rsvp')}</Button>
                             </Link>
                         </p>
                     </>
@@ -111,7 +118,7 @@ function FAQs() {
                         <p>{t("faqs-10-answer-b")}</p>
                         <p>
                             <Link to="/rsvp">
-                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                                <Button className="button-primary" variant="outlined">{t('rsvp')}</Button>
                             </Link>
                         </p>
                     </>
@@ -126,7 +133,7 @@ function FAQs() {
                         {t("faqs-11-answer")}
                         <p>
                             <Link to="/rsvp">
-                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                                <Button className="button-primary" variant="outlined">{t('rsvp')}</Button>
                             </Link>
                         </p>
                     </>
@@ -149,7 +156,7 @@ function FAQs() {
                         <p>{t("faqs-13-answer-b")}</p>
                         <p>
                             <Link to="/rsvp">
-                                <Button className="button-primary" variant="outlined">RSVP</Button>
+                                <Button className="button-primary" variant="outlined">{t('rsvp')}</Button>
                             </Link>
                         </p>
                     </>
