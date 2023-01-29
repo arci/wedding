@@ -28,3 +28,12 @@
     right: 50%;
     width: 100vw;
 }
+
+#gift .section {
+    margin-bottom: 1.5em;
+}
+
+#gift .section [class*=gift] {
+    margin-bottom: 1.5em;
+    line-height: 24px;
+}

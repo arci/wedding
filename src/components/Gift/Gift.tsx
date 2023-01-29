@@ -16,17 +16,17 @@ function Gift() {
             <img className="main-img" src={head} alt="Past travels"/>
 
             <div className="section">
-                <div className="location-description-1">{t('location-description-1')}</div>
-                <div className="location-description-2">{t('location-description-2')}</div>
-                <div className="location-description-3">{t('location-description-3')}</div>
-                <div className="location-description-4">{t('location-description-4')}</div>
-                <div className="location-description-4">{t('location-description-4')}</div>
+                <div className="gift-1">{t('gift-1')}</div>
+                <div className="gift-2">{t('gift-2')}</div>
+                <div className="gift-3">{t('gift-3')}</div>
+                <div className="gift-4">{t('gift-4')}</div>
+                <div className="gift-5">{t('gift-5')}</div>
             </div>
 
             <img className="main-img" src={tail} alt="Future travels"/>
 
             <div className="section">
-                <div className="location-description-1">{t('location-description-1')}</div>
+                <div className="gift-1">{t('gift-1')}</div>
             </div>
         </div>
     )
