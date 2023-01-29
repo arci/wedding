@@ -28,9 +28,9 @@
     "location-amenities-5": "parcheggio gratuito",
     
     "location-get-there": "Come arrivare",
-    "location-get-there-1": "Purtroppo la proprità non è servita dal trasporto pubblico.",
-    "location-get-there-2": "Se arrivi via aereo, possiamo organizzare una navetta dall'aereoporto di Comiso o Catania. Se soggiorni in un altro posto vicino, possiamo organizzare una navetta da lì fino a La Dimora di Spartivento e vice-versa. Dai un occhio alle FAQ o contattaci per maggiori informazioni.",
-    "location-get-there-3": "Se preferisci noleggiare una macchina, La Dimora di Spartivento si trova a 23 minuti dall'aereoporto di Comiso e 1 ora e mezza dall'aereoporto di Catania.",
+    "location-get-there-1": "Purtroppo la proprietà non è servita dal trasporto pubblico.",
+    "location-get-there-2": "Se arrivi via aereo, possiamo organizzare una navetta dall'aeroporto di Comiso o Catania. Se soggiorni in un altro posto vicino, possiamo organizzare una navetta da lì fino a La Dimora di Spartivento e viceversa. Dai un occhio alle FAQ o contattaci per maggiori informazioni.",
+    "location-get-there-3": "Se preferisci noleggiare una macchina, La Dimora di Spartivento si trova a 23 minuti dall'aeroporto di Comiso e 1 ora e mezza dall'aeroporto di Catania.",
     
     "location-get-directions": "Vedi sulla mappa",
     
@@ -43,7 +43,7 @@
     "saturday-2": "Drink di benvenuto",
     "saturday-2-body": "Beh, è estate. Fa caldo. Forse troppo caldo, lo sappiamo. Iniziamo con qualche bevanda rinfrescante, una granita e qualche stuzzicheria presso la piscina de La Dimora di Spartivento.",
     "saturday-3": "Cerimonia",
-    "saturday-3-body": "L'evento principale! E'il momento di accogliere lo sposo e la sposa e brindare! Non ci piacciono cerimonie lunge e noiose quindi sarà breve, non più di 20 minuti.",
+    "saturday-3-body": "L'evento principale! È il momento di accogliere lo sposo e la sposa e brindare! Non ci piacciono cerimonie lunghe e noiose quindi sarà breve, non più di 20 minuti.",
     "saturday-4": "Brindisi e aperitivo",
     "saturday-4-body": "Ritroviamoci con vecchi amici, incontriamone di nuovi e brindiamo all'inizio di un weekend di festa.",
     "saturday-5": "Cena",
@@ -56,7 +56,7 @@
     "sunday-1-body-a": "Dopo una serata di festa, non c'è nulla di meglio di una colazione tardiva.",
     "sunday-1-body-b": "Mattiniero? Non ti preoccupare, abbiamo pensato anche a te. Raggiungi l'area ristorante de La Dimora di Spartivento in cui lo staff ti accoglierà con la pasticceria e caffè.",
     "sunday-2": "Tempo libero!",
-    "sunday-2-body": "L'agenda ufficiale termina qui! Una Domenica all'insegna del relax sotto al sole. Goditi la piscina della strututra o recati alla spiaggia più vicina.",
+    "sunday-2-body": "L'agenda ufficiale termina qui! Una Domenica all'insegna del relax sotto al sole. Goditi la piscina della struttura o recati alla spiaggia più vicina.",
 
     "faqs-title": "FAQs",
 
@@ -71,7 +71,7 @@
     "faqs-2": "Posso portare un ospite?",
     "faqs-2-answer": "Sfortunatamente, a causa del budget e spazio, non possiamo permetterci che tutti i nostri ospiti portino una persona in più. Contattaci prima di invitare qualcuno che non abbiamo invitato direttamente.",
     
-    "faqs-3": "Servireta alcohol durante la fetsa?",
+    "faqs-3": "Servirete alcool durante la festa?",
     "faqs-3-answer": "Certo! ma i saranno anche opzioni analcoliche.",
     
     "faqs-4": "Non starò all'hotel. Posso partecipare al brunch la Domenica?",
@@ -83,22 +83,22 @@
     "faqs-6": "Cosa posso regalarvi?",
     "faqs-6-answer": "La tua presenza è un regalo! Ma puoi aiutarci a finanziare questa festa o la nostra luna di miele!",
     
-    "faqs-7": "Qual'è l'aereoporto più vicino?",
-    "faqs-7-answer": "L'aereoporto più vicino è Comiso ma solo per voli interni. Per voli internazionali, l'aereoporto più vicino è Catania.",
+    "faqs-7": "Qual'è l'aeroporto più vicino?",
+    "faqs-7-answer": "L'aeroporto più vicino è Comiso ma solo per voli interni. Per voli internazionali, l'aeroporto più vicino è Catania.",
 
     "faqs-8": "Quando devo arrivare e quanto tempo dovrò stare?",
-    "faqs-8-answer-a": "L'arrivo è l'8 Luglio. Il check-in inizia alle 14, ma sei libero di arrivare prima e goderti la location mentre la tua camera viene preparata. Il check-out è Lunedì 10 Luglio entro le ore 10.",
+    "faqs-8-answer-a": "L'arrivo è previsto l'8 Luglio. Il check-in inizia alle 14, ma sei libero di arrivare prima e goderti la location mentre la tua camera viene preparata. Il check-out è Lunedì 10 Luglio entro le ore 10.",
     "faqs-8-answer-b": "Se preferisci, puoi effettuare il check-out la Domenica, facci sapere in anticipo così possiamo organizzare le camere.",
 
     "faqs-9": "C'è parcheggio gratuito?",
     "faqs-9-answer": "Si!",
 
-    "faqs-10": "Come posso arrivare dall'aereoporto alla location?",
-    "faqs-10-answer-a": "Purtroppo la location non è servita dal trasposrto pubblico. Puoi noleggiare una macchina, prendere un pullman fino a Ragusa centro e da li un taxi, oppure puoi organizzare un transfer.",
-    "faqs-10-answer-b": "Se hai bisogno di aiuto per sposrtarti da e per l'aereoporto o dal centro città, facci sapere e possiamo aiutarti ad organizzare un trasfer.",
+    "faqs-10": "Come posso arrivare dall'aeroporto alla location?",
+    "faqs-10-answer-a": "Purtroppo la location non è servita dal trasporto pubblico. Puoi noleggiare una macchina, prendere un pullman fino a Ragusa centro e da lì un taxi, oppure puoi organizzare un transfer.",
+    "faqs-10-answer-b": "Se hai bisogno di aiuto per sposrtarti da e per l'aeroporto o dal centro città, facci sapere e possiamo aiutarti a organizzare un transfer.",
     
     "faqs-11": "Come posso arrivare dal mio hotel alla location?",
-    "faqs-11-answer": "Se hai bisogno di aiuto per sposrtarti dal tuo hotel alla location e viceversa, facci sapere e possiamo aiutarti ad organizzare un trasfer.",
+    "faqs-11-answer": "Se hai bisogno di aiuto per sposrtarti dal tuo hotel alla location e viceversa, facci sapere e possiamo aiutarti a organizzare un transfer.",
 
     "faqs-12": "Devo noleggiare una macchina?",
     "faqs-12-answer": "Sta a te. Non ci sono Uber in Sicilia e la location non è servita dal trasporto pubblico. Ti sentirai più libero con una macchina. Se il costo è elevato puoi organizzarti per dividerlo con altri ospiti.",
