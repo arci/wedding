@@ -11,7 +11,7 @@ function LanguageSelector() {
             {availableLanguages.map((language) =>
             (<span key={language}
                 onClick={() => i18n.changeLanguage(language)}
-                className={i18n.language === language ? "current" : ""}>
+                className={i18n.language.includes(language) ? "current" : ""}>
                 {language.toLocaleUpperCase()}
             </span>)
             )
