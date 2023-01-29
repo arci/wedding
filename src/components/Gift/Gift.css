@@ -46,7 +46,7 @@
 
 #gift .money-title {
     font-weight: 700;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 #gift .money-option {
@@ -54,8 +54,13 @@
 }
 
 #gift .money-detail {
-    text-decoration: underline;
-    text-decoration-thickness: 0.8px;
+    cursor: pointer;
+}
+
+#gift .money-detail:hover {
+    text-decoration: none;
+    background-color: #FF5734;
+    color: white;
 }
 
 @media only screen and (min-width: 900px) {

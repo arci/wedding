@@ -144,11 +144,12 @@
     "gift-5": "Prometemos manter nossos amigos atualizados sobre nossa jornada. Obrigada por fazer parte de nossas vidas durante este momento especial.",
 
     "gift-money-euro-title": "Para presentes em EURO",
-    "gift-money-euro-subtitle": "IBAN: ",
+    "gift-money-euro-subtitle": "IBAN:",
     "gift-money-euro-detail": "NL56 ABNA 0889 9888 11",
     "gift-money-real-title": "Para presentes em Real (BRL)",
-    "gift-money-real-subtitle": "chave PIX: ",
+    "gift-money-real-subtitle": "chave PIX:",
     "gift-money-real-detail": "410.119.188-38",
+    "gift-copy": "Clique para copiar!",
 
     "coming-soon": "Em breve",
     "not-found": "Alguma coisa deu errada",

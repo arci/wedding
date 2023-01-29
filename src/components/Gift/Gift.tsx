@@ -3,9 +3,14 @@ import head from './images/head.png';
 import tail from './images/tail.png';
 
 import { useTranslation } from 'react-i18next';
+import { Tooltip } from '@mui/material';
 
 function Gift() {
     const { t } = useTranslation()
+
+    const setClipboard = (text: string) => {
+        navigator.clipboard.writeText(text)
+    }
 
     return (
         <div id="gift" className="page">
@@ -27,16 +32,20 @@ function Gift() {
                 <div className='money-options'>
                     <div className="money-option">
                         <div className="money-title">{t('gift-money-euro-title')}</div>
-                        <div>
-                            <span>{t('gift-money-euro-subtitle')}</span>
-                            <span className='money-detail'>{t('gift-money-euro-detail')}</span>
+                        <div className="money-content">
+                            <span>{t('gift-money-euro-subtitle')}&nbsp;</span>
+                            <Tooltip title={t('gift-copy')} disableTouchListener>
+                                <span className='money-detail' onClick={() => setClipboard(t('gift-money-euro-detail'))}>{t('gift-money-euro-detail')} </span>
+                            </Tooltip>
                         </div>
                     </div>
                     <div className="money-option">
                         <div className="money-title">{t('gift-money-real-title')}</div>
-                        <div>
-                            <span>{t('gift-money-real-subtitle')}</span>
-                            <span className='money-detail'>{t('gift-money-real-detail')}</span>
+                        <div className="money-content">
+                            <span>{t('gift-money-real-subtitle')}&nbsp;</span>
+                            <Tooltip title={t('gift-copy')} disableTouchListener>
+                                <span className='money-detail' onClick={() => setClipboard(t('gift-money-real-detail'))}>{t('gift-money-real-detail')}</span>
+                            </Tooltip>
                         </div>
                     </div>
                 </div>
