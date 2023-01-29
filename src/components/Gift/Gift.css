@@ -38,7 +38,7 @@
     line-height: 24px;
 }
 
-#gift .money {
+#gift .money-options {
     border: 1px solid #FF5734;
     text-align: center;
     margin-top: 2em;
@@ -54,4 +54,30 @@
 
 #gift .money-detail {
     text-decoration: underline;
+}
+
+@media only screen and (min-width: 900px) {
+    #gift .gift-name {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    #gift .main-img {
+        all: initial;
+        width: 100%;
+    }
+
+    #gift .section.text {
+        margin: 0 8em;
+    }
+
+    #gift .section.money {
+        display: flex;
+        justify-content: center;
+    }
+
+    #gift .money-options {
+        padding: 0 3em;
+        max-width: 30%;
+    }
 }

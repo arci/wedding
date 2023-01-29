@@ -15,7 +15,7 @@ function Gift() {
 
             <img className="main-img" src={head} alt="Past travels" />
 
-            <div className="section">
+            <div className="section text">
                 <div className="gift-1">{t('gift-1')}</div>
                 <div className="gift-2">{t('gift-2')}</div>
                 <div className="gift-3">{t('gift-3')}</div>
@@ -26,18 +26,20 @@ function Gift() {
             <img className="main-img" src={tail} alt="Future travels" />
 
             <div className="section money">
-                <div className="money-option">
-                    <div className="money-title">{t('gift-money-euro-title')}</div>
-                    <div>
-                        <span>{t('gift-money-euro-subtitle')}</span>
-                        <span className='money-detail'>{t('gift-money-euro-detail')}</span>
+                <div className='money-options'>
+                    <div className="money-option">
+                        <div className="money-title">{t('gift-money-euro-title')}</div>
+                        <div>
+                            <span>{t('gift-money-euro-subtitle')}</span>
+                            <span className='money-detail'>{t('gift-money-euro-detail')}</span>
+                        </div>
                     </div>
-                </div>
-                <div className="money-option">
-                    <div className="money-title">{t('gift-money-real-title')}</div>
-                    <div>
-                        <span>{t('gift-money-real-subtitle')}</span>
-                        <span className='money-detail'>{t('gift-money-real-detail')}</span>
+                    <div className="money-option">
+                        <div className="money-title">{t('gift-money-real-title')}</div>
+                        <div>
+                            <span>{t('gift-money-real-subtitle')}</span>
+                            <span className='money-detail'>{t('gift-money-real-detail')}</span>
+                        </div>
                     </div>
                 </div>
             </div>
