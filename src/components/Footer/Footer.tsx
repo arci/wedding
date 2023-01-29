@@ -1,6 +1,6 @@
 import './Footer.css';
-import pencil from './pencil.svg';
-import code from './code.svg';
+import pencil from './images/pencil.svg';
+import code from './images/code.svg';
 
 import { useTranslation } from 'react-i18next';
 

@@ -1,6 +1,6 @@
 import "./Map.css"
-import airport from './airport.png';
-import location from './location.png';
+import airport from './images/airport.png';
+import location from './images/location.png';
 
 import { useEffect, useRef, useState } from "react";
 

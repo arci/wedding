@@ -1,11 +1,6 @@
 import { ReactEventHandler } from 'react';
-import {
-  ListItemText,
-  ListItem
-} from "@mui/material";
-import {
-  Link,
-} from "react-router-dom";
+import { ListItemText, ListItem } from "@mui/material";
+import { Link } from "react-router-dom";
 
 interface ListItemLinkProps {
   primary: string;

@@ -1,5 +1,5 @@
 import './Home.css';
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';

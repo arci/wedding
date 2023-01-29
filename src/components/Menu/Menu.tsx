@@ -1,6 +1,6 @@
 import './Menu.css';
-import menu from './hamburger.svg';
-import logo from './logo.svg';
+import menu from './images/hamburger.svg';
+import logo from './images/logo.svg';
 
 import { useState } from "react";
 import {

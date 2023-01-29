@@ -1,6 +1,6 @@
 import './Location.css';
-import dimora from './dimora.jpg';
-import collage from './collage.jpg';
+import dimora from './images/dimora.jpg';
+import collage from './images/collage.jpg';
 
 import { useTranslation } from 'react-i18next';
 import { Button } from '@mui/material';
