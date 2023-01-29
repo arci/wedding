@@ -23,8 +23,6 @@ function Gift() {
                 <div className="gift-5">{t('gift-5')}</div>
             </div>
 
-            <img className="main-img" src={tail} alt="Future travels" />
-
             <div className="section money">
                 <div className='money-options'>
                     <div className="money-option">
@@ -43,6 +41,8 @@ function Gift() {
                     </div>
                 </div>
             </div>
+
+            <img className="main-img tail" src={tail} alt="Future travels" />
         </div>
     )
 }

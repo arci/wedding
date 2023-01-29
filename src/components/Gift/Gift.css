@@ -54,6 +54,7 @@
 
 #gift .money-detail {
     text-decoration: underline;
+    text-decoration-thickness: 0.8px;
 }
 
 @media only screen and (min-width: 900px) {
@@ -79,5 +80,12 @@
     #gift .money-options {
         padding: 0 3em;
         max-width: 30%;
+    }
+
+    #gift .tail {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
     }
 }
