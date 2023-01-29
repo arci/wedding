@@ -134,7 +134,7 @@
     "rsvp-title": "RSVP",
     
     "gift-title": "Lista de Presentes",
-    "gift-name": "Vamos em busca de aventuras",
+    "gift-name": "Vamos em busca de aventuras!",
     "gift-description": "Viajar é criar memórias que duram a vida toda",
 
     "gift-1": "Somos muito gratos por ter todas as coisas materiais de que precisamos. Portanto, vamos deixar a tradiçāo de lado e não faremos uma lista de presentes tradicional.",
@@ -142,6 +142,13 @@
     "gift-3": "Em 2018 fizemos nossa primeira viagem juntos, um fim de semana em Roma. Pouco tempo depois começamos a sonhar e a pensar nos próximos destinos.",
     "gift-4": "Desde então, partimos de mala e cuia para Amsterdam, vimos o mar do alto um vulcão nevado, dormimos no chão com uma família berbere, procuramos estrelas-do-mar nas águas cristalinas de Siracusa, nos perdemos nos rios do Mamanguá e vimos botos cor-de-rosa brincando enquanto navegávamos as águas escuras do Rio Negro. A essa altura, sabíamos - estávamos perdidamente apaixonados pelo desconhecido e não existe remédio que cure.",
     "gift-5": "Prometemos manter nossos amigos atualizados sobre nossa jornada. Obrigada por fazer parte de nossas vidas durante este momento especial.",
+
+    "gift-money-euro-title": "Para presentes em EURO",
+    "gift-money-euro-subtitle": "IBAN: ",
+    "gift-money-euro-detail": "NL56 ABNA 0889 9888 11",
+    "gift-money-real-title": "Para presentes em Real (BRL)",
+    "gift-money-real-subtitle": "chave PIX: ",
+    "gift-money-real-detail": "410.119.188-38",
 
     "coming-soon": "Em breve",
     "not-found": "Alguma coisa deu errada",

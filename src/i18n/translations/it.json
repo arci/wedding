@@ -134,7 +134,22 @@
     "rsvp-title": "RSVP",
 
     "gift-title": "Lista nozze",
-    
+    "gift-name": "Vogliamo vivere un'avventura!",
+    "gift-description": "Viaggiare crea ricordi che durano per tutta la vita",
+
+    "gift-1": "Siamo grati di avere già ciò di cui abbiamo bisogno, quindi non troverete una vera e propria lista nozze.",
+    "gift-2": "Se vuoi davvero farci un regalo, allora chiediamo il tuo aiuto per realizzare il nostro desiderio di esplorare il mondo e di creare nuovi ricordi.",
+    "gift-3": "Nel 2018 abbiamo fatto il nostro primo viaggio insieme, un fine settimana a Roma. Poco dopo abbiamo iniziato a sognare e a pensare alle prossime destinazioni.",
+    "gift-4": "Da allora, abbiamo ammirato il mare da un vulcano innevato, abbiamo dormito sul pavimento con una famiglia berbera, abbiamo cercato le stelle marine sulle coste di Siracusa, ci siamo persi nei fiumi del Mamanguá e abbiamo visto i delfini rosa giocare mentre navigavamo nelle acque scure del Rio Negro, nella foresta più grande del mondo. A questo punto lo sapevamo, eravamo perdutamente innamorati dell'ignoto e non esiste alcuna cura",
+    "gift-5": "Vi promettiamo di tenervi aggiornati sul nostro viaggio e siamo molto grati che facciate parte della nostra vita in questo momento speciale.",
+
+    "gift-money-euro-title": "Per regali in EURO",
+    "gift-money-euro-subtitle": "IBAN: ",
+    "gift-money-euro-detail": "NL56 ABNA 0889 9888 11",
+    "gift-money-real-title": "Per regali in Real (BRL)",
+    "gift-money-real-subtitle": "chave PIX: ",
+    "gift-money-real-detail": "410.119.188-38",
+
     "coming-soon": "In arrivo",
     "not-found": "Qualcosa si è rotto",
 
