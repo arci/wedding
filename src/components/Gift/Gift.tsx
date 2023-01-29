@@ -13,7 +13,7 @@ function Gift() {
             <div className="gift-name">{t('gift-name')}</div>
             <div className="gift-description">{t('gift-description')}</div>
 
-            <img className="main-img" src={head} alt="Past travels"/>
+            <img className="main-img" src={head} alt="Past travels" />
 
             <div className="section">
                 <div className="gift-1">{t('gift-1')}</div>
@@ -23,10 +23,23 @@ function Gift() {
                 <div className="gift-5">{t('gift-5')}</div>
             </div>
 
-            <img className="main-img" src={tail} alt="Future travels"/>
+            <img className="main-img" src={tail} alt="Future travels" />
 
-            <div className="section">
-                <div className="gift-1">{t('gift-1')}</div>
+            <div className="section money">
+                <div className="money-option">
+                    <div className="money-title">{t('gift-money-euro-title')}</div>
+                    <div>
+                        <span>{t('gift-money-euro-subtitle')}</span>
+                        <span className='money-detail'>{t('gift-money-euro-detail')}</span>
+                    </div>
+                </div>
+                <div className="money-option">
+                    <div className="money-title">{t('gift-money-real-title')}</div>
+                    <div>
+                        <span>{t('gift-money-real-subtitle')}</span>
+                        <span className='money-detail'>{t('gift-money-real-detail')}</span>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -37,3 +37,21 @@
     margin-bottom: 1.5em;
     line-height: 24px;
 }
+
+#gift .money {
+    border: 1px solid #FF5734;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#gift .money-title {
+    font-weight: 700;
+}
+
+#gift .money-option {
+    margin: 1.5em 0;
+}
+
+#gift .money-detail {
+    text-decoration: underline;
+}
