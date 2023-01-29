@@ -4,7 +4,7 @@
     "agenda": "Agenda",
     "rsvp": "RSVP",
     "faqs": "FAQs",
-    "gift": "Gift",
+    "gift": "Gift registry",
 
     "who": "fabio - marília",
     "when": "8 and 9 of July 2023",
@@ -133,8 +133,10 @@
 
     "rsvp-title": "RSVP",
 
-    "gift-title": "Gift",
-    
+    "gift-title": "Gift registry",
+    "gift-name": "We are going in an adventure!",
+    "gift-description": "Travel creates memories that last a lifetime",
+
     "coming-soon": "Coming soon, stay tuned",
     "not-found": "Not sure what's happened",
 
