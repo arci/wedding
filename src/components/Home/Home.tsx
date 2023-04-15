@@ -14,9 +14,8 @@ function Home() {
             <div className="who">{t('who')}</div>
             <div className="when">{t('when')}</div>
             <div className="where">{t('where')}</div>
-            <div className="next">{t('next')}</div>
             <Link to="/rsvp">
-                <Button className="button-primary" variant="outlined">RSVP</Button>
+                <Button className="button-primary" variant="outlined">{t('agenda')}</Button>
             </Link>
         </div>
     )
