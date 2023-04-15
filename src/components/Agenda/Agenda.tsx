@@ -20,7 +20,7 @@ function Agenda() {
                         <Section name="suitcase" title={t("saturday-1")}>
                             <p>{t("saturday-1-body")}</p>
                         </Section>
-                        <Section name="wine" title={t("saturday-2")}>
+                        <Section name="welcome" title={t("saturday-2")}>
                             <p>{t("saturday-2-body")}</p>
                         </Section>
                         <Section name="rings" title={t("saturday-3")}>
