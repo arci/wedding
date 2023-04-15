@@ -29,12 +29,18 @@ function Agenda() {
                         <Section name="cheers" title={t("saturday-4")}>
                             <p>{t("saturday-4-body")}</p>
                         </Section>
-                        <Section name="food" title={t("saturday-5")}>
+                        <Section name="aperitif" title={t("saturday-5")}>
                             <p>{t("saturday-5-body")}</p>
                         </Section>
-                        <Section name="music" title={t("saturday-6")}>
-                            <p>{t("saturday-6-body-a")}</p>
-                            <p>{t("saturday-6-body-b")}</p>
+                        <Section name="dinner" title={t("saturday-6")}>
+                            <p>{t("saturday-6-body")}</p>
+                        </Section>
+                        <Section name="cake" title={t("saturday-7")}>
+                            <p>{t("saturday-7-body")}</p>
+                        </Section>
+                        <Section name="music" title={t("saturday-8")}>
+                            <p>{t("saturday-8-body-a")}</p>
+                            <p>{t("saturday-8-body-b")}</p>
                         </Section>
                     </div>
                 </TabPanel>
