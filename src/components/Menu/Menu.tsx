@@ -66,8 +66,6 @@ function Menu() {
             <Divider sx={{ mb: 2 }} />
             <ListItemLink to="/agenda" primary={t('agenda')} onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
-            <ListItemLink to="/rsvp" primary={t('rsvp')} onClick={() => toggleDrawer(false)} />
-            <Divider sx={{ mb: 2 }} />
             <ListItemLink to="/faqs" primary={t('faqs')} onClick={() => toggleDrawer(false)} />
             <Divider sx={{ mb: 2 }} />
             <ListItemLink to="/gift" primary={t('gift')} onClick={() => toggleDrawer(false)} />
@@ -90,7 +88,6 @@ function Menu() {
         <ListItemLink to="/" primary={t('home')} className={location.pathname === "/" ? "active" : ""} />
         <ListItemLink to="/location" primary={t('location')} className={location.pathname === "/location" ? "active" : ""} />
         <ListItemLink to="/agenda" primary={t('agenda')} className={location.pathname === "/agenda" ? "active" : ""} />
-        <ListItemLink to="/rsvp" primary={t('rsvp')} className={location.pathname === "/rsvp" ? "active" : ""} />
         <ListItemLink to="/faqs" primary={t('faqs')} className={location.pathname === "/faqs" ? "active" : ""} />
         <ListItemLink to="/gift" primary={t('gift')} className={location.pathname === "/gift" ? "active" : ""} />
       </Box>
